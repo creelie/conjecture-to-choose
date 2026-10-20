@@ -1,0 +1,83 @@
+# Bridge index of thirteen-crossing knots
+
+KnotInfo (version 2026.10.5) lists the bridge index of 536 prime knots with 13 crossings as
+`[3,4]`: it is known to be 3 or 4, and the exact value is not known.
+
+**Result.** 243 of these knots have bridge index 4 and meridional rank 4, so the meridional
+rank conjecture of Cappell and Shaneson holds for them (Kirby's problem list, Problem 1.11).
+The list is in [`paper/bridge13.pdf`](paper/bridge13.pdf), Appendix A, and in
+[`data/certificates.json`](data/certificates.json). The other 293 knots, listed in
+[`data/still_open.json`](data/still_open.json), stay open.
+
+| group | image of a meridian | knots |
+|---|---|---|
+| Sp(4, F₃) | transvection | 67 |
+| Sp(4, F₅) | transvection | 161 |
+| O(4, F₅) | reflection | 15 |
+
+## The proof
+
+Write μ(K) for the meridional rank and b(K) for the bridge index; always μ(K) ≤ b(K).
+
+- **Upper bound.** The KnotInfo diagram of each knot has Wirtinger number 4. By Blair,
+  Kjuchukova, Velazquez and Villanueva, the bridge index is at most the Wirtinger number of
+  any diagram, so b(K) ≤ 4.
+- **Lower bound.** Each certificate is a homomorphism ρ from the knot group to GL(4, F_q)
+  that sends the meridian to a pseudo-reflection: a matrix fixing a hyperplane.
+  - Each meridian is sent to a pseudo-reflection, and the hyperplanes they fix meet only
+    in 0, so no nonzero vector is fixed by the whole image.
+  - If k meridians generated the group, their images would fix the intersection of k
+    hyperplanes. That intersection is nonzero when k ≤ 3, so μ(K) ≥ 4.
+
+The pseudo-reflections used are transvections x ↦ x + ω(x,v)v of a symplectic form, or
+reflections of a quadratic form. Earlier lower bounds came from Coxeter quotients, where
+meridians go to order-2 reflections. The order-3 and order-5 transvections settle most of
+these knots.
+
+## Checking it
+
+```
+python3 verify/verify.py              # standard library only
+pip install database_knotinfo
+python3 verify/verify.py --knotinfo   # also compares PD codes and [3,4] entries with KnotInfo
+```
+
+For every knot the verifier checks each of the following:
+
+- the matrices are constant along arcs;
+- the Wirtinger relation holds at every crossing;
+- each arc matrix minus the identity has rank 1;
+- the stacked matrices minus the identity have rank 4;
+- the four seed arcs color the whole diagram by the Wirtinger coloring moves.
+
+All 243 pass in a few seconds. The verifier rejects four kinds of corrupted certificate:
+
+- a changed matrix entry;
+- seeds on three arcs;
+- one crossing with its overstrand reversed;
+- identity matrices.
+
+## Layout
+
+- `paper/`: the paper `bridge13.tex` and its PDF. `make_tables.py` writes `generated.tex`
+  from the data.
+- `data/certificates.json`: for each knot, the KnotInfo PD code, the prime q, one 4×4 matrix
+  per edge, and four seed edges.
+- `data/still_open.json`: the 293 knots with entry `[3,4]` that remain open.
+- `verify/verify.py`: the verifier.
+- `search/`: the programs that found the certificates (`symp.py`, `run_sp2.py`, `generic.py`
+  for searches over colorings; `gram.py`, `ogram.py`, `glsearch.py`, `gram_gf.py` for searches
+  over Gram matrices of the seeds; `w3.py` for 3-bridge diagrams). `make_certificates.py`
+  writes `data/certificates.json` from their output. These programs need numpy, SnapPy and
+  database_knotinfo, and are run from `search/`; the proof does not depend on them.
+
+## References
+
+- R. Blair, A. Kjuchukova, R. Velazquez, P. Villanueva, Wirtinger systems of generators of
+  knot groups, Comm. Anal. Geom. 28 (2020), 243–262, arXiv:1705.03108.
+- R. Blair, A. Kjuchukova, N. Morrison, Coxeter quotients of knot groups through 16
+  crossings, Experimental Mathematics 34 (2025), 27–37, arXiv:2208.09032.
+- R. Blair, A. Kjuchukova, E. Pfaff, The plain sphere number of a link, arXiv:2504.10517.
+- C. Livingston, A. H. Moore, KnotInfo, https://knotinfo.org.
+
+Author: Deep Bhattacharjee.
