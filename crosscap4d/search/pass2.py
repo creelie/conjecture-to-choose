@@ -27,7 +27,8 @@ def work(r):
         rec.update(bound=best[0],crossing=best[1],kind=best[2],target=best[3],pd=[list(x) for x in best[4]],closed=best[0]==lo,pass2=True)
     return rec
 if __name__=='__main__':
-    todo=[r for r in R if not r.get('closed')]
-    with Pool(2) as P, open('results2.jsonl','w') as f:
+    done={json.loads(l)['knot'] for l in open('results2.jsonl')}
+    todo=[r for r in R if not r.get('closed') and r['knot'] not in done]
+    with Pool(1) as P, open('results2.jsonl','a') as f:
         for rec in P.imap_unordered(work,todo,chunksize=2):
             f.write(json.dumps(rec)+'\n'); f.flush()
