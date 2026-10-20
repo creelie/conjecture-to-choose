@@ -1,0 +1,204 @@
+\documentclass[11pt]{amsart}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{amssymb,mathtools,booktabs,multicol}
+\usepackage[hidelinks]{hyperref}
+\input{generated}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\title[Pinch moves and the nonorientable four-genus]{Pinch moves and the nonorientable four-genus of knots with at most thirteen crossings}
+\author{Deep Bhattacharjee}
+\email{itsdeep@live.com}
+\date{October 20, 2026}
+
+\begin{document}
+\begin{abstract}
+The smooth nonorientable four-genus $\gamma_4(K)$ of a knot is the least first Betti number
+of a smooth nonorientable surface in $B^4$ bounded by $K$. KnotInfo leaves it undetermined
+for \ntotal{} prime knots with eleven to thirteen crossings. We determine it for
+\nclosed{} of them and lower the known upper bound for \nimproved{} more. Each result comes
+from one pinch move, the nonorientable band move at a crossing of a diagram, that turns the
+knot into a slice knot or into a knot whose nonorientable four-genus is known. Every
+certificate is a diagram, a crossing and a target knot. A program independent of the search
+checks each one by Reidemeister moves or by an isomorphism of triangulated knot complements.
+\end{abstract}
+\maketitle
+
+\section{Introduction}
+
+Every knot $K\subset S^3=\partial B^4$ bounds a smooth surface in $B^4$; if $K$ is not
+slice, it bounds nonorientable ones as well. The \emph{nonorientable four-genus} $\gamma_4(K)$ is the least
+first Betti number of a smooth compact nonorientable surface $F\subset B^4$ with
+$\partial F=K$; for slice knots one sets $\gamma_4(K)=1$. It was studied by Murakami and
+Yasuhara \cite{MY} and by Gilmer and Livingston \cite{GiL}. Its values on small knots were computed by Jabuka and
+Kelly for eight and nine crossings \cite{JK}, by Ghanbarian for ten \cite{Gh} and by Fairchild
+for nonalternating knots with eleven \cite{Fa}. Lee and Sabloff \cite{LS} extended the
+computation to fourteen crossings with an algorithmic search for M\"obius bands in the
+style of Dunfield and Gong \cite{DG}, together with the Arf invariant obstruction of
+Yasuhara \cite{Ya} and a linking form obstruction of Murakami and Yasuhara \cite{MY}. The KnotInfo database \cite{KnotInfo}
+incorporates these data. In its version 2026.10.5, \ntotal{} knots with eleven to thirteen
+crossings have an interval $[a,b]$ with $a<b$ as the entry for $\gamma_4$.
+
+\begin{theorem}\label{thm:main}
+For each of the \nclosed{} knots listed in the data file \texttt{certificates.json}
+with the flag \texttt{closed}, $\gamma_4(K)$ equals the lower end of its KnotInfo interval:
+\nclosedone{} knots have $\gamma_4(K)=1$ and \nclosedtwo{} have $\gamma_4(K)=2$. For the other
+\nimproved{} knots of the file the upper bound is lowered by at least one.
+\end{theorem}
+
+Table~\ref{tab:counts} gives the counts by crossing number and by KnotInfo interval.
+The proof uses one elementary move.
+
+\begin{definition}
+Let $D$ be a diagram of a knot $K$ and $c$ a crossing of $D$. Of the two smoothings of $c$,
+one respects the orientation of $K$ and gives a two-component link; the other gives a knot
+$K'$. We say $K'$ is obtained from $K$ by a \emph{pinch move} at $c$.
+\end{definition}
+
+\begin{lemma}\label{lem:pinch}
+If $K'$ is obtained from $K$ by a pinch move, then $\gamma_4(K)\le 1$ when $K'$ is slice,
+and $\gamma_4(K)\le\gamma_4(K')+1$ in general.
+\end{lemma}
+
+\begin{proof}
+The pinch move is a band move, so there is a cobordism $\Sigma\subset S^3\times[0,1]$ from
+$K$ to $K'$ formed by $K\times[0,1]$ and one band. Since $K'$ is connected, the band does not
+respect the orientation of $K$, and $\Sigma$ is a M\"obius band with an open disk removed. If $K'$ bounds a disk $\Delta$ in $B^4$, then
+$\Sigma\cup\Delta$ is a M\"obius band bounded by $K$, so $\gamma_4(K)\le1$. If $K'$ bounds
+a surface $F$ with $b_1(F)=\gamma_4(K')$, then $\Sigma\cup F$ is a nonorientable surface
+bounded by $K$ with $b_1=b_1(F)+1$. This is the bound used by Jabuka and Kelly \cite{JK}.
+\end{proof}
+
+The lower bounds are not ours. A knot that is not slice has $\gamma_4\ge1$. For the knots
+whose interval starts at $2$, the lower bound is the obstruction to bounding a M\"obius band
+recorded by KnotInfo from Lee and Sabloff \cite{LS}: either Yasuhara's condition
+$4\operatorname{Arf}(K)-\sigma(K)\in\{0,\pm2\}\pmod 8$ fails \cite{Ya}, or the linking form
+obstruction of Murakami and Yasuhara \cite{MY} applies. Theorem~\ref{thm:main} therefore rests on these
+published obstructions, on the slice status and four-genus values recorded in KnotInfo for
+the targets, and on the certificates below.
+
+\section{Certificates and their verification}
+
+A certificate for a knot $K$ consists of a planar diagram code $D$, a crossing $c$ of $D$, a
+choice of smoothing, and a target: either the unknot or a knot $T$ of KnotInfo. It asserts
+that
+\begin{enumerate}
+\item $D$ is a diagram of $K$;
+\item the chosen smoothing of $c$ gives a one-component diagram $D'$;
+\item $D'$ represents $T$ or its mirror image;
+\item the bound $\beta=1$ if $T$ is slice or the unknot, and $\beta=\gamma_4(T)+1$ otherwise,
+is smaller than the upper end of the KnotInfo interval of $K$.
+\end{enumerate}
+Since $\gamma_4$ and sliceness are invariant under mirror image, (1) to (4) and
+Lemma~\ref{lem:pinch} give $\gamma_4(K)\le\beta$.
+
+The certificates were found with SnapPy \cite{SnapPy}: for every open knot we applied
+every pinch move to the KnotInfo diagram and to up to twenty-five diagrams obtained from it by
+random Reidemeister moves, and identified the resulting knots by hyperbolic structure. A
+second pass used the knots settled in the first pass as targets; the number of certificates
+with such a target is \nchained{}, and the verifier checks them after the certificates of
+their targets.
+
+The verifier \texttt{verify.py} does not use SnapPy. It reads the KnotInfo database and
+uses Regina \cite{Regina} for the topology. For (1) and (3) it proves that two diagrams
+represent the same knot up to mirror image in one of two ways.
+\begin{itemize}
+\item \emph{Isotopy.} Both diagrams are simplified by Reidemeister moves to the same number
+of crossings, and the closures of the two minimal diagrams under Reidemeister moves that add
+at most one crossing share a diagram. Diagrams are compared by Regina's canonical
+signatures, taken up to reflection, rotation and reversal.
+\item \emph{Complements.} The triangulated complements of the two diagrams have
+combinatorially isomorphic triangulations, possibly after Pachner moves that add at most one
+tetrahedron. Then the complements are homeomorphic, and by the theorem of Gordon and Luecke
+\cite{GL} the knots agree up to mirror image.
+\end{itemize}
+Both tests are exact: a positive answer is a proof. Regina's simplification is
+randomised, so the verifier makes up to four attempts, each from a fixed seed, and gives each
+certificate two minutes. For the unknot the verifier uses
+Regina's recognition of the solid torus. Item (2) is checked by following the strands of
+$D'$, and (4) by reading KnotInfo.
+
+The verifier accepts all \ncerts{} certificates. It rejects certificates
+corrupted in four ways, on a sample of twenty: the other smoothing of the crossing, the next
+crossing, a wrong target, and a bound lowered by one (Table~\ref{tab:selftest}). The seven
+modified certificates with the next crossing that it accepts are valid certificates: that
+crossing gives the same target.
+
+\section{Results}
+
+\begin{table}[htbp]
+\centering
+\countstable
+\caption{Open entries of $\gamma_4$ in KnotInfo 2026.10.5 and what the certificates give.
+``Settled'': the value is now known; ``lowered'': the upper bound is lower.}
+\label{tab:counts}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\selftesttable
+\caption{Corrupted certificates rejected by the verifier.}
+\label{tab:selftest}
+\end{table}
+
+The remaining \nopen{} knots, listed in \texttt{still\_open.json}, are not settled by one
+pinch move found in this way. For a knot with interval $[1,2]$ that is not settled, no
+pinch move we tried gives a slice knot; this says nothing about whether $\gamma_4=1$.
+
+\begin{remark}
+The \nclosedone{} M\"obius bands found here are not in the data of Lee and Sabloff
+\cite{LS}, whose search follows Dunfield and Gong \cite{DG} and runs over a finite family of
+bands chosen in advance. We have not determined which restriction of that family excludes
+them. The knots settled at $\gamma_4=2$ were outside their aim, which was M\"obius bands;
+for them the target of the pinch move is a knot known to bound a M\"obius band but not a disk.
+\end{remark}
+
+\appendix
+\section{The settled knots}\label{app:list}
+
+{\footnotesize
+\noindent\textbf{$\gamma_4=1$ (\nclosedone{} knots).}
+\begin{multicols}{6}\raggedright
+\listone
+\end{multicols}
+
+\noindent\textbf{$\gamma_4=2$ (\nclosedtwo{} knots).}
+\begin{multicols}{6}\raggedright
+\listtwo
+\end{multicols}
+}
+
+\begin{thebibliography}{99}
+\bibitem{DG} N.~M.~Dunfield and S.~Gong, \emph{Ribbon concordances and slice obstructions:
+experiments and examples}, arXiv:2512.21825.
+\bibitem{Fa} M.~Fairchild, \emph{The non-orientable 4-genus of 11 crossing non-alternating
+knots}, J. Knot Theory Ramifications 34 (2025), no.~1.
+\bibitem{Gh} N.~Ghanbarian, \emph{The non-orientable 4-genus for knots with 10 crossings},
+J. Knot Theory Ramifications 31 (2022), no.~5, 2250034.
+\bibitem{GiL} P.~M.~Gilmer and C.~Livingston, \emph{The nonorientable 4-genus of knots},
+J. Lond. Math. Soc. (2) 84 (2011), 559--577.
+\bibitem{GL} C.~McA.~Gordon and J.~Luecke, \emph{Knots are determined by their complements},
+J. Amer. Math. Soc. 2 (1989), 371--415.
+\bibitem{JK} S.~Jabuka and T.~Kelly, \emph{The nonorientable 4-genus for knots with 8 or 9
+crossings}, Algebr. Geom. Topol. 18 (2018), 1823--1856.
+\bibitem{KnotInfo} C.~Livingston and A.~H.~Moore, \emph{KnotInfo: Table of Knot Invariants},
+knotinfo.org, version 2026.10.5.
+\bibitem{LS} D.~Lee and J.~M.~Sabloff, \emph{An algorithmic search for knots bounding
+M\"obius bands in $B^4$}, arXiv:2607.23582.
+\bibitem{MY} H.~Murakami and A.~Yasuhara, \emph{Four-genus and four-dimensional clasp number
+of a knot}, Proc. Amer. Math. Soc. 128 (2000), 3693--3699.
+\bibitem{Regina} B.~A.~Burton, R.~Budney, W.~Pettersson et al., \emph{Regina: software for
+low-dimensional topology}, regina-normal.github.io, version 7.4.
+\bibitem{SnapPy} M.~Culler, N.~M.~Dunfield, M.~Goerner and J.~R.~Weeks, \emph{SnapPy, a
+computer program for studying the geometry and topology of 3-manifolds}, snappy.computop.org.
+\bibitem{Ya} A.~Yasuhara, \emph{Connecting lemmas and representing homology classes of simply
+connected 4-manifolds}, Tokyo J. Math. 19 (1996), 245--261.
+\end{thebibliography}
+
+\end{document}
