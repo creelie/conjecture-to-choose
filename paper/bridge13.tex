@@ -1,0 +1,232 @@
+\documentclass[11pt]{amsart}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{amssymb,mathtools,booktabs,multicol}
+\usepackage[hidelinks]{hyperref}
+\input{generated}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\F}{\mathbb{F}}
+\DeclareMathOperator{\rk}{rank}
+\DeclareMathOperator{\Sp}{Sp}
+\DeclareMathOperator{\GL}{GL}
+\renewcommand{\O}{\mathrm{O}}
+
+\title{Transvections and the bridge index of thirteen-crossing knots}
+\author{Deep Bhattacharjee}
+\email{itsdeep@live.com}
+\date{October 20, 2026}
+
+
+\begin{document}
+\begin{abstract}
+KnotInfo lists the bridge index of \ntotal{} prime knots with thirteen crossings as
+either $3$ or $4$. We prove that \nclosed{} of them have bridge index $4$ and meridional
+rank $4$, so the meridional rank conjecture holds for these knots. The lower bound comes
+from representations of the knot group in $\GL_4(\F_q)$ that send a meridian to a
+transvection or a reflection and fix no nonzero vector. Each such representation is
+given explicitly and checked by a short program.
+\end{abstract}
+\maketitle
+
+\section{Introduction}
+
+Let $K\subset S^3$ be a knot, $G=\pi_1(S^3\setminus K)$ its group and $m\in G$ a meridian.
+The \emph{bridge index} $b(K)$ is the least number of local maxima of a height function on
+a knot isotopic to $K$. The \emph{meridional rank} $\mu(K)$ is the least number of
+meridians, that is conjugates of $m^{\pm1}$, that generate $G$. The overpasses of a
+$b$-bridge presentation give $b$ meridians generating $G$, so
+\[
+\mu(K)\le b(K).
+\]
+Cappell and Shaneson asked whether equality always holds
+\cite[Problem~1.11]{Kirby}; this is the meridional rank conjecture.
+
+Two lines of work make the conjecture checkable for a given knot. Blair, Kjuchukova,
+Velazquez and Villanueva defined the Wirtinger number $\omega(D)$ of a diagram $D$ and
+proved that its minimum over the diagrams of $K$ is $b(K)$ \cite{BKVV}. In particular
+\begin{equation}\label{eq:upper}
+b(K)\le\omega(D)\quad\text{for every diagram $D$ of $K$.}
+\end{equation}
+Blair, Kjuchukova and Morrison bounded $\mu(K)$ from below by surjections of $G$ onto
+Coxeter groups sending meridians to reflections, and so computed $b(K)=\mu(K)$ for
+595{,}515 knots up to sixteen crossings \cite{BKM}. KnotInfo \cite{KnotInfo} records the
+bridge index of thirteen-crossing knots from these bounds and from the plain sphere
+number \cite{BKP}. In the version 2026.10.5 of the database, \ntotal{} knots with thirteen
+crossings have the entry $[3,4]$: the bounds $3\le b(K)\le4$ are known and the value is
+not.
+
+\begin{theorem}\label{thm:main}
+For each of the \nclosed{} knots $K$ listed in Appendix~\ref{app:closed},
+\[
+b(K)=\mu(K)=4 .
+\]
+In particular the meridional rank conjecture holds for these knots.
+\end{theorem}
+
+The upper bound is \eqref{eq:upper} applied to the KnotInfo diagram of $K$, whose Wirtinger
+number is $4$. The lower bound is Lemma~\ref{lem:fixed} below, applied to a representation
+$\rho\colon G\to\GL_4(\F_q)$ with $q\in\{3,5\}$. Each $\rho$ sends the meridian to a
+transvection of $\Sp_4(\F_q)$ or to a reflection of an orthogonal group $\O_4(\F_5)$. Reflections
+in Coxeter groups are pseudo-reflections too; the transvections, of order $3$ and $5$, are
+what settles most of these knots.
+Table~\ref{tab:groups} gives the counts.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{llr}
+\toprule
+group & image of a meridian & knots \\
+\midrule
+\grouptable
+\bottomrule
+\end{tabular}
+\caption{The certificates of Theorem~\ref{thm:main}, by the group used.}\label{tab:groups}
+\end{table}
+
+\section{A lower bound from pseudo-reflections}
+
+A \emph{pseudo-reflection} of a vector space $V$ is an element $g\in\GL(V)$ with
+$\rk(g-1)=1$. It fixes the hyperplane $\ker(g-1)$ pointwise.
+
+\begin{lemma}\label{lem:fixed}
+Let $V$ be a vector space of dimension $n$ over a field and let $\rho\colon G\to\GL(V)$ be
+a homomorphism such that $\rho(m)$ is a pseudo-reflection. Let $V^{G}$ be the subspace of
+vectors fixed by $\rho(G)$. Then
+\[
+\mu(K)\ \ge\ n-\dim V^{G}.
+\]
+\end{lemma}
+
+\begin{proof}
+Let $m_1,\dots,m_k$ be meridians generating $G$, with $m_i=g_im^{\epsilon_i}g_i^{-1}$ and
+$\epsilon_i=\pm1$. Since $\rho(m)^{-1}-1=-\rho(m)^{-1}(\rho(m)-1)$, each $\rho(m_i)$
+is a pseudo-reflection, and $H_i=\ker(\rho(m_i)-1)$ is a hyperplane. The intersection
+$H_1\cap\dots\cap H_k$ has dimension at least $n-k$ and is fixed by every $\rho(m_i)$,
+hence by $\rho(G)$. So $n-k\le\dim V^G$.
+\end{proof}
+
+\begin{corollary}\label{cor:four}
+If $\dim V=4$, $\rho(m)$ is a pseudo-reflection and $V^G=0$, then $b(K)\ge\mu(K)\ge4$.
+\end{corollary}
+
+In a diagram with arcs $x_1,\dots,x_r$, the Wirtinger presentation makes such a $\rho$ an
+assignment of matrices $X_i=\rho(x_i)$ to the arcs that satisfies
+$X_c=X_o^{\pm1}X_aX_o^{\mp1}$ at each crossing, where $x_o$ is the overarc and $x_a,x_c$
+are the underarcs. Since the $X_i$ generate $\rho(G)$,
+\[
+V^G=\bigcap_{i=1}^{r}\ker(X_i-1).
+\]
+Both conditions are finite computations once the $X_i$ are written down.
+
+\subsection*{Transvections}
+Let $\omega$ be a nondegenerate alternating form on $V=\F_q^4$. For $v\ne0$ the
+transvection $t_v(x)=x+\omega(x,v)\,v$ lies in $\Sp(V,\omega)$, $t_v-1$ has rank one,
+$t_{-v}=t_v$, and $g\,t_v\,g^{-1}=t_{gv}$ for $g\in\Sp(V,\omega)$. A representation with
+$X_i=t_{v_i}$ is therefore the same thing as a coloring of the arcs by vectors with
+\[
+v_c=\pm\,t_{v_o}^{\pm1}(v_a)
+\]
+at every crossing, and $\ker(X_i-1)=v_i^{\perp}$. So
+$V^G=(\operatorname{span}\{v_i\})^{\perp}$, which is $0$ exactly when the $v_i$ span $V$.
+
+\subsection*{Reflections}
+Let $B$ be a nondegenerate symmetric bilinear form on $\F_q^4$, $q$ odd. For $B(v,v)\ne0$
+the reflection $r_v(x)=x-2\frac{B(x,v)}{B(v,v)}\,v$ satisfies $g\,r_v\,g^{-1}=r_{gv}$ for
+$g\in\O(B)$, and again $V^G=(\operatorname{span}\{v_i\})^{\perp}$.
+
+\section{The certificates}\label{sec:cert}
+
+For each knot of Appendix~\ref{app:closed} the file \texttt{data/certificates.json}
+contains:
+\begin{itemize}
+\item the PD code of $K$ from KnotInfo, with edges numbered $1,\dots,2n$ along the
+orientation and $[a,b,c,d]$ the edges at a crossing counterclockwise from the incoming
+underedge $a$;
+\item a prime $q$ and a $4\times4$ matrix over $\F_q$ for every edge;
+\item four edges on distinct arcs, the seeds of a Wirtinger coloring.
+\end{itemize}
+The program \texttt{verify/verify.py} uses only the Python standard library. For every
+knot it checks:
+\begin{enumerate}
+\item the matrices are constant along each arc, where an arc is a maximal run of edges
+between two undercrossings;
+\item at each crossing $[a,b,c,d]$ the relation $X_c=X_b^{-1}X_aX_b$ holds if the
+overstrand runs from $b$ to $d$, and $X_c=X_bX_aX_b^{-1}$ if it runs from $d$ to $b$
+(changing this convention at every crossing at once replaces $K$ by its mirror image, which
+has the same $b$ and $\mu$);
+\item each $X_i-1$ has rank $1$, and the matrices $X_i-1$ stacked together have rank $4$,
+so that $V^G=0$;
+\item starting from the four seed arcs, the coloring moves of \cite{BKVV} (if the overarc
+and one underarc at a crossing are colored, color the other underarc) color every arc, so
+$\omega(D)\le4$.
+\end{enumerate}
+By Corollary~\ref{cor:four} and \eqref{eq:upper}, items (1)--(4) prove $b(K)=\mu(K)=4$.
+With the option \texttt{--knotinfo} the program also checks that each PD code is the one
+in KnotInfo and that KnotInfo lists the bridge index as $[3,4]$. All \nclosed{}
+certificates are checked in a few seconds. The program rejects altered
+certificates: a changed matrix entry, a seed set on three arcs, one crossing with its
+overstrand reversed, or identity matrices.
+
+\begin{remark}
+The certificates were found by a search, which plays no part in the proof. If the four
+seed vectors do not span $V$, every arc vector lies in their span, so a certificate must
+have seeds forming a basis. A coloring is then determined by the Gram matrix of the seeds:
+six entries of an alternating matrix, or six off-diagonal entries of a symmetric matrix
+with a fixed diagonal. The search runs over all such matrices and propagates the colors
+from the seeds through the crossings. The Wirtinger relations are then checked at the
+remaining crossings.
+\end{remark}
+
+\section{The knots that remain open}
+
+For the other \nopen{} knots with entry $[3,4]$ (Appendix~\ref{app:open}) we found
+neither bound. The exhaustive searches described above found no representation satisfying
+Corollary~\ref{cor:four} with meridians sent to transvections of $\Sp_4(\F_q)$ for
+$q\in\{3,4,5,7,8,9,11\}$, to reflections of $\O_4(\F_q)$ for $q\in\{3,5,7\}$ (both
+isometry types), or to pseudo-reflections of $\GL_4(\F_2)$ and $\GL_4(\F_3)$ with
+eigenvalue $1$ or $-1$. Random Reidemeister moves
+(SnapPy \cite{SnapPy}) produced no diagram of Wirtinger number $3$; 300 diagrams were tried
+for each knot. These knots stay open: a diagram of Wirtinger number $3$ would give
+$b(K)=\mu(K)=3$, and a representation as in Corollary~\ref{cor:four} over another field,
+or a Coxeter quotient of rank $4$, would give $b(K)=\mu(K)=4$.
+
+\section*{Data availability}
+The certificates, the verification program and the search programs are in the repository
+\url{https://github.com/creelie/conjecture-to-choose}.
+
+\begin{thebibliography}{9}
+\bibitem{BKM} R.~Blair, A.~Kjuchukova and N.~Morrison, Coxeter quotients of knot groups
+through 16 crossings, \emph{Experimental Mathematics} \textbf{34} (2025), no.~1, 27--37;
+arXiv:2208.09032.
+\bibitem{BKP} R.~Blair, A.~Kjuchukova and E.~Pfaff, The plain sphere number of a link,
+arXiv:2504.10517.
+\bibitem{BKVV} R.~Blair, A.~Kjuchukova, R.~Velazquez and P.~Villanueva, Wirtinger
+systems of generators of knot groups, \emph{Comm. Anal. Geom.} \textbf{28} (2020), no.~2,
+243--262; arXiv:1705.03108.
+\bibitem{SnapPy} M.~Culler, N.~M.~Dunfield, M.~Goerner and J.~R.~Weeks, SnapPy, a computer
+program for studying the geometry and topology of 3-manifolds, version 3.3.2,
+\url{https://snappy.computop.org}.
+\bibitem{Kirby} R.~Kirby (ed.), Problems in low-dimensional topology, in \emph{Geometric
+Topology (Athens, GA, 1993)}, AMS/IP Stud. Adv. Math. \textbf{2.2}, Amer. Math. Soc.,
+1997, 35--473.
+\bibitem{KnotInfo} C.~Livingston and A.~H.~Moore, KnotInfo: table of knot invariants,
+\url{https://knotinfo.org}, version 2026.10.5 (the \texttt{database\_knotinfo} package).
+\end{thebibliography}
+
+\appendix
+\section{The knots of Theorem~\ref{thm:main}}\label{app:closed}
+{\small\raggedright
+\closedlist.\par}
+
+\section{The knots with entry \texorpdfstring{$[3,4]$}{[3,4]} that remain open}\label{app:open}
+{\small\raggedright
+\openlist.\par}
+
+\end{document}
