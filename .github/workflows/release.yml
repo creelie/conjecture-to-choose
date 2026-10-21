@@ -41,6 +41,10 @@ jobs:
         run: |
           python -m pip install database_knotinfo==2026.10.5
           python verify/verify.py --knotinfo
+      - name: Check every four-genus certificate
+        run: |
+          python -m pip install regina
+          python crosscap4d/verify/verify.py
       - name: Pack the repository
         env:
           TAG: ${{ inputs.tag }}
@@ -51,7 +55,7 @@ jobs:
           TAG: ${{ inputs.tag }}
           TARGET: ${{ inputs.target }}
         run: |
-          gh release create "$TAG" "conjecture-to-choose-$TAG.zip" paper/bridge13.pdf \
+          gh release create "$TAG" "conjecture-to-choose-$TAG.zip" paper/bridge13.pdf crosscap4d/paper/crosscap4d.pdf \
             --target "$TARGET" \
-            --title "$TAG: Transvections and the bridge index of thirteen-crossing knots" \
+            --title "$TAG: bridge index and nonorientable four-genus of knots with at most thirteen crossings" \
             --notes-file .github/RELEASE_NOTES.md

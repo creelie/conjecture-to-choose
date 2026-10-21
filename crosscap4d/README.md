@@ -7,11 +7,10 @@ crossings.
 
 **Result (partial).**
 
-- 1,954 of these knots now have a known γ₄. For 389 of them γ₄ = 1, and for 1,565 of them
+- 2,093 of these knots now have a known γ₄. For 465 of them γ₄ = 1, and for 1,628 of them
   γ₄ = 2.
-- For 578 more knots the upper bound is lower: 577 go from [1,3] or [1,4] to [1,2], and one
-  goes from [2,4] to [2,3].
-- The value stays open for 1,571 knots, including those 578.
+- For 575 more knots the upper bound is lower.
+- The value stays open for 1,432 knots, including those 575.
 
 The paper is [`paper/crosscap4d.pdf`](paper/crosscap4d.pdf). The certificates are in
 [`data/certificates.json`](data/certificates.json) and the open knots in
@@ -19,10 +18,10 @@ The paper is [`paper/crosscap4d.pdf`](paper/crosscap4d.pdf). The certificates ar
 
 | crossings | open in KnotInfo | settled at γ₄ = 1 | settled at γ₄ = 2 | upper bound lowered | value still open |
 |---|---|---|---|---|---|
-| 11 | 59 | 0 | 30 | 9 | 29 |
-| 12 | 455 | 37 | 239 | 69 | 179 |
-| 13 | 3,011 | 352 | 1,296 | 500 | 1,363 |
-| all | 3,525 | 389 | 1,565 | 578 | 1,571 |
+| 11 | 59 | 0 | 33 | 9 | 26 |
+| 12 | 455 | 41 | 254 | 69 | 160 |
+| 13 | 3,011 | 424 | 1,341 | 497 | 1,246 |
+| all | 3,525 | 465 | 1,628 | 575 | 1,432 |
 
 ## The proof
 
@@ -45,7 +44,7 @@ things:
 The slice status and the γ₄ values of the targets are read from KnotInfo. In three
 certificates the target is a knot settled earlier in the same file.
 
-None of the 389 Möbius bands appears in the Lee–Sabloff data
+None of the 465 Möbius bands appears in the Lee–Sabloff data
 (github.com/LeeJoPing/Mobius-Band-Search), and no settled value contradicts their
 obstructions.
 
@@ -53,7 +52,7 @@ obstructions.
 
 ```
 pip install regina database_knotinfo
-python3 verify/verify.py              # about 10 minutes on 4 cores
+python3 verify/verify.py              # under an hour on 4 cores
 python3 verify/verify.py --selftest   # also checks that corrupted certificates are rejected
 ```
 
@@ -67,13 +66,15 @@ the following, using Regina:
 Two diagrams are identified in one of two exact ways:
 
 - a common diagram reached by Reidemeister moves;
-- combinatorially isomorphic triangulations of the complements. With Gordon–Luecke, this
-  shows the knots are the same up to mirror image.
+- combinatorially isomorphic triangulations of the complements: either the simplified
+  complements themselves, possibly after one Pachner move, or a triangulation that occurs
+  among forty simplifications of each complement under fixed seeds of Regina's random engine
+  (with the triangulations one Pachner move from the smallest of them). With Gordon–Luecke,
+  this shows the knots are the same up to mirror image.
 
 The unknot is recognised as the knot whose complement is a solid torus. Each certificate
-gets four seeded attempts and two minutes. All 2,532 certificates in the file pass. Any certificate
-that failed this check was removed from the file: of 2,639 certificates found, 107 could not be verified, and their
-knots are counted as open.
+gets four seeded attempts and two minutes. All 2,668 certificates in the file pass. A candidate that the
+check does not accept is not in the file, and its knot is counted as open.
 
 ## Layout
 
@@ -85,5 +86,6 @@ knots are counted as open.
   where a search candidate failed verification, that candidate.
 - `verify/verify.py`: the verifier (Regina and KnotInfo only).
 - `search/`: the SnapPy search (`runall.py` first pass, `pass2.py` second pass with chained
-  targets, `probe.py` pinch moves and identification).
+  targets, `run3.py` and `run3b.py` third pass on six diagrams with the seeded complement
+  test of `certify.py`, `probe.py` pinch moves and identification).
 - `paper/`: the paper; `make_tables.py` writes `generated.tex` from the data.
