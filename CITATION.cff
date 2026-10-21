@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use these certificates or the verifier, please cite them as below."
+title: "Transvections and the bridge index of thirteen-crossing knots: paper, certificates and verifier"
+type: software
+authors:
+  - family-names: Bhattacharjee
+    given-names: Deep
+    orcid: "https://orcid.org/0000-0003-0466-750X"
+    email: itsdeep@live.com
+    affiliation: "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India; Formerly, University of Calcutta, Senate House, 87/1 College Street, Kolkata 700073, West Bengal, India"
+version: 1.0.0
+date-released: 2026-10-21
+license: MIT
+repository-code: "https://github.com/creelie/conjecture-to-choose"
+keywords:
+  - bridge index
+  - meridional rank
+  - Wirtinger number
+  - transvections
+  - knot groups
