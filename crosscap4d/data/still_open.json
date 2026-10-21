@@ -80,18 +80,6 @@
 "verified_bound": null
 },
 {
-"knot": "11a_29",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "10_97",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "11a_297",
 "knotinfo_range": [
 1,
@@ -132,18 +120,6 @@
 "verified_bound": 2
 },
 {
-"knot": "11a_337",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "10_29",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "11a_352",
 "knotinfo_range": [
 1,
@@ -173,18 +149,6 @@
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "11a_66",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "10_91",
-"bound": 2
-},
 "verified_bound": null
 },
 {
@@ -244,18 +208,6 @@
 "verified_bound": 2
 },
 {
-"knot": "12a_1004",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11a_121",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "12a_1012",
 "knotinfo_range": [
 1,
@@ -293,18 +245,6 @@
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "12a_1070",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "11a_35",
-"bound": 1
-},
 "verified_bound": null
 },
 {
@@ -384,30 +324,6 @@
 "verified_bound": 2
 },
 {
-"knot": "12a_1180",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11a_229",
-"bound": 2
-},
-"verified_bound": null
-},
-{
-"knot": "12a_1189",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11a_283",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "12a_1192",
 "knotinfo_range": [
 1,
@@ -472,14 +388,6 @@
 "verified_bound": null
 },
 {
-"knot": "12a_1266",
-"knotinfo_range": [
-2,
-3
-],
-"verified_bound": null
-},
-{
 "knot": "12a_1276",
 "knotinfo_range": [
 1,
@@ -496,43 +404,11 @@
 "verified_bound": null
 },
 {
-"knot": "12a_1288",
-"knotinfo_range": [
-2,
-3
-],
-"verified_bound": null
-},
-{
-"knot": "12a_134",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11a_252",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "12a_14",
 "knotinfo_range": [
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "12a_148",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11a_236",
-"bound": 2
-},
 "verified_bound": null
 },
 {
@@ -592,30 +468,6 @@
 "verified_bound": 2
 },
 {
-"knot": "12a_269",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11a_156",
-"bound": 2
-},
-"verified_bound": null
-},
-{
-"knot": "12a_277",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "10_31",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "12a_302",
 "knotinfo_range": [
 1,
@@ -648,32 +500,12 @@
 "verified_bound": null
 },
 {
-"knot": "12a_331",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11a_92",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "12a_332",
 "knotinfo_range": [
 1,
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "12a_335",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
 },
 {
 "knot": "12a_36",
@@ -764,18 +596,6 @@
 "verified_bound": null
 },
 {
-"knot": "12a_446",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "10_44",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "12a_467",
 "knotinfo_range": [
 1,
@@ -806,18 +626,6 @@
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "12a_502",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11a_65",
-"bound": 2
-},
-"verified_bound": null
 },
 {
 "knot": "12a_503",
@@ -1172,14 +980,6 @@
 "verified_bound": null
 },
 {
-"knot": "12a_932",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
 "knot": "12a_933",
 "knotinfo_range": [
 1,
@@ -1524,18 +1324,6 @@
 "verified_bound": 2
 },
 {
-"knot": "12n_651",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11n_5",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "12n_654",
 "knotinfo_range": [
 1,
@@ -1568,36 +1356,12 @@
 "verified_bound": null
 },
 {
-"knot": "12n_763",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11n_154",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "12n_764",
 "knotinfo_range": [
 1,
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "12n_769",
-"knotinfo_range": [
-1,
-3
-],
-"unverified_candidate": {
-"target": "10_137",
-"bound": 1
-},
-"verified_bound": null
 },
 {
 "knot": "12n_775",
@@ -1724,18 +1488,6 @@
 "verified_bound": null
 },
 {
-"knot": "12n_881",
-"knotinfo_range": [
-2,
-4
-],
-"unverified_candidate": {
-"target": "9_31",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "12n_888",
 "knotinfo_range": [
 2,
@@ -1792,18 +1544,6 @@
 "verified_bound": null
 },
 {
-"knot": "13a_1087",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "11a_35",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13a_1089",
 "knotinfo_range": [
 1,
@@ -1836,28 +1576,12 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_1131",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
 "knot": "13a_1133",
 "knotinfo_range": [
 1,
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13a_1140",
-"knotinfo_range": [
-1,
-3
-],
-"verified_bound": null
 },
 {
 "knot": "13a_1151",
@@ -2072,14 +1796,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_1320",
-"knotinfo_range": [
-1,
-3
-],
-"verified_bound": null
-},
-{
 "knot": "13a_1321",
 "knotinfo_range": [
 1,
@@ -2136,18 +1852,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_136",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12a_54",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13a_1368",
 "knotinfo_range": [
 1,
@@ -2202,14 +1906,6 @@
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13a_1412",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
 },
 {
 "knot": "13a_1417",
@@ -2316,18 +2012,6 @@
 "verified_bound": null
 },
 {
-"knot": "13a_1477",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12a_54",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13a_1482",
 "knotinfo_range": [
 1,
@@ -2368,14 +2052,6 @@
 "verified_bound": null
 },
 {
-"knot": "13a_1506",
-"knotinfo_range": [
-1,
-3
-],
-"verified_bound": 2
-},
-{
 "knot": "13a_1510",
 "knotinfo_range": [
 1,
@@ -2397,18 +2073,6 @@
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "13a_1523",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "11a_96",
-"bound": 1
-},
 "verified_bound": null
 },
 {
@@ -2500,14 +2164,6 @@
 "verified_bound": null
 },
 {
-"knot": "13a_1627",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
 "knot": "13a_1632",
 "knotinfo_range": [
 1,
@@ -2548,26 +2204,10 @@
 "verified_bound": null
 },
 {
-"knot": "13a_1658",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
 "knot": "13a_1662",
 "knotinfo_range": [
 2,
 3
-],
-"verified_bound": null
-},
-{
-"knot": "13a_1665",
-"knotinfo_range": [
-1,
-2
 ],
 "verified_bound": null
 },
@@ -2636,18 +2276,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_1731",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12a_221",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13a_1740",
 "knotinfo_range": [
 1,
@@ -2661,26 +2289,6 @@
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "13a_1767",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
-"knot": "13a_1785",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12a_247",
-"bound": 2
-},
 "verified_bound": null
 },
 {
@@ -2756,18 +2364,6 @@
 "verified_bound": null
 },
 {
-"knot": "13a_1851",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12a_447",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13a_1852",
 "knotinfo_range": [
 1,
@@ -2784,18 +2380,6 @@
 "verified_bound": null
 },
 {
-"knot": "13a_1856",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12a_377",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13a_187",
 "knotinfo_range": [
 1,
@@ -2809,18 +2393,6 @@
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "13a_1885",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11a_42",
-"bound": 2
-},
 "verified_bound": null
 },
 {
@@ -2849,14 +2421,6 @@
 },
 {
 "knot": "13a_1904",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
-"knot": "13a_1907",
 "knotinfo_range": [
 1,
 2
@@ -2942,14 +2506,6 @@
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13a_197",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
 },
 {
 "knot": "13a_1971",
@@ -3168,14 +2724,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_2135",
-"knotinfo_range": [
-2,
-3
-],
-"verified_bound": null
-},
-{
 "knot": "13a_2148",
 "knotinfo_range": [
 2,
@@ -3320,18 +2868,6 @@
 "verified_bound": null
 },
 {
-"knot": "13a_224",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12a_77",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13a_2271",
 "knotinfo_range": [
 1,
@@ -3353,18 +2889,6 @@
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "13a_2311",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12a_77",
-"bound": 1
-},
 "verified_bound": null
 },
 {
@@ -3464,18 +2988,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_2417",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12a_498",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13a_242",
 "knotinfo_range": [
 1,
@@ -3498,18 +3010,6 @@
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13a_244",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12a_54",
-"bound": 1
-},
-"verified_bound": null
 },
 {
 "knot": "13a_2445",
@@ -3584,18 +3084,6 @@
 "verified_bound": null
 },
 {
-"knot": "13a_2511",
-"knotinfo_range": [
-1,
-3
-],
-"unverified_candidate": {
-"target": "12a_221",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13a_2523",
 "knotinfo_range": [
 1,
@@ -3610,14 +3098,6 @@
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13a_2542",
-"knotinfo_range": [
-2,
-3
-],
-"verified_bound": null
 },
 {
 "knot": "13a_2544",
@@ -3793,22 +3273,6 @@
 },
 {
 "knot": "13a_2672",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
-"knot": "13a_2674",
-"knotinfo_range": [
-2,
-3
-],
-"verified_bound": null
-},
-{
-"knot": "13a_2676",
 "knotinfo_range": [
 1,
 2
@@ -4112,14 +3576,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_2864",
-"knotinfo_range": [
-1,
-3
-],
-"verified_bound": null
-},
-{
 "knot": "13a_2875",
 "knotinfo_range": [
 1,
@@ -4344,14 +3800,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_3026",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
 "knot": "13a_3034",
 "knotinfo_range": [
 2,
@@ -4365,18 +3813,6 @@
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "13a_3042",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11a_250",
-"bound": 2
-},
 "verified_bound": null
 },
 {
@@ -4440,14 +3876,6 @@
 "knotinfo_range": [
 1,
 2
-],
-"verified_bound": null
-},
-{
-"knot": "13a_3096",
-"knotinfo_range": [
-2,
-3
 ],
 "verified_bound": null
 },
@@ -4528,14 +3956,6 @@
 "knotinfo_range": [
 1,
 2
-],
-"verified_bound": null
-},
-{
-"knot": "13a_3130",
-"knotinfo_range": [
-2,
-3
 ],
 "verified_bound": null
 },
@@ -4692,14 +4112,6 @@
 "verified_bound": null
 },
 {
-"knot": "13a_318",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
 "knot": "13a_319",
 "knotinfo_range": [
 1,
@@ -4796,26 +4208,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_3294",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12a_377",
-"bound": 1
-},
-"verified_bound": null
-},
-{
-"knot": "13a_3298",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
 "knot": "13a_33",
 "knotinfo_range": [
 1,
@@ -4904,36 +4296,12 @@
 "verified_bound": null
 },
 {
-"knot": "13a_3354",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12a_377",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13a_3358",
 "knotinfo_range": [
 1,
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13a_3364",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12a_581",
-"bound": 2
-},
-"verified_bound": null
 },
 {
 "knot": "13a_3365",
@@ -5048,26 +4416,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_3413",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12a_377",
-"bound": 1
-},
-"verified_bound": null
-},
-{
-"knot": "13a_3417",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
 "knot": "13a_3454",
 "knotinfo_range": [
 2,
@@ -5130,14 +4478,6 @@
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13a_3497",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
 },
 {
 "knot": "13a_3501",
@@ -5732,14 +5072,6 @@
 "verified_bound": null
 },
 {
-"knot": "13a_3930",
-"knotinfo_range": [
-1,
-3
-],
-"verified_bound": null
-},
-{
 "knot": "13a_3931",
 "knotinfo_range": [
 1,
@@ -5964,14 +5296,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_4054",
-"knotinfo_range": [
-1,
-3
-],
-"verified_bound": null
-},
-{
 "knot": "13a_4055",
 "knotinfo_range": [
 1,
@@ -6036,14 +5360,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_4119",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
 "knot": "13a_4126",
 "knotinfo_range": [
 1,
@@ -6061,14 +5377,6 @@
 },
 {
 "knot": "13a_4129",
-"knotinfo_range": [
-1,
-3
-],
-"verified_bound": 2
-},
-{
-"knot": "13a_4141",
 "knotinfo_range": [
 1,
 3
@@ -6106,14 +5414,6 @@
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13a_4155",
-"knotinfo_range": [
-2,
-3
-],
-"verified_bound": null
 },
 {
 "knot": "13a_416",
@@ -6252,32 +5552,12 @@
 "verified_bound": null
 },
 {
-"knot": "13a_4246",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12a_17",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13a_4248",
 "knotinfo_range": [
 1,
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13a_4249",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
 },
 {
 "knot": "13a_4250",
@@ -6309,18 +5589,6 @@
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "13a_4289",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12a_221",
-"bound": 1
-},
 "verified_bound": null
 },
 {
@@ -6380,23 +5648,7 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_4331",
-"knotinfo_range": [
-2,
-3
-],
-"verified_bound": null
-},
-{
 "knot": "13a_4337",
-"knotinfo_range": [
-1,
-3
-],
-"verified_bound": 2
-},
-{
-"knot": "13a_4338",
 "knotinfo_range": [
 1,
 3
@@ -6408,14 +5660,6 @@
 "knotinfo_range": [
 2,
 3
-],
-"verified_bound": null
-},
-{
-"knot": "13a_4342",
-"knotinfo_range": [
-1,
-2
 ],
 "verified_bound": null
 },
@@ -6564,14 +5808,6 @@
 "verified_bound": null
 },
 {
-"knot": "13a_4449",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
 "knot": "13a_445",
 "knotinfo_range": [
 1,
@@ -6682,14 +5918,6 @@
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13a_4511",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
 },
 {
 "knot": "13a_4523",
@@ -6844,14 +6072,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_4620",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
 "knot": "13a_4626",
 "knotinfo_range": [
 1,
@@ -6890,18 +6110,6 @@
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13a_4654",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12a_447",
-"bound": 1
-},
-"verified_bound": null
 },
 {
 "knot": "13a_4658",
@@ -7072,14 +6280,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_4743",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
 "knot": "13a_4745",
 "knotinfo_range": [
 1,
@@ -7112,14 +6312,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_476",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
 "knot": "13a_4763",
 "knotinfo_range": [
 2,
@@ -7150,18 +6342,6 @@
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13a_4774",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11a_76",
-"bound": 2
-},
-"verified_bound": null
 },
 {
 "knot": "13a_4778",
@@ -7340,30 +6520,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_519",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "11a_36",
-"bound": 1
-},
-"verified_bound": null
-},
-{
-"knot": "13a_537",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "11a_35",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13a_552",
 "knotinfo_range": [
 1,
@@ -7412,18 +6568,6 @@
 "verified_bound": null
 },
 {
-"knot": "13a_590",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12a_526",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13a_596",
 "knotinfo_range": [
 1,
@@ -7446,18 +6590,6 @@
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13a_609",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12a_213",
-"bound": 2
-},
-"verified_bound": null
 },
 {
 "knot": "13a_616",
@@ -7628,14 +6760,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_687",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
 "knot": "13a_693",
 "knotinfo_range": [
 1,
@@ -7650,14 +6774,6 @@
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13a_699",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
 },
 {
 "knot": "13a_702",
@@ -7698,14 +6814,6 @@
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13a_726",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
 },
 {
 "knot": "13a_729",
@@ -7772,18 +6880,6 @@
 "verified_bound": null
 },
 {
-"knot": "13a_786",
-"knotinfo_range": [
-1,
-3
-],
-"unverified_candidate": {
-"target": "12a_77",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13a_79",
 "knotinfo_range": [
 1,
@@ -7801,22 +6897,6 @@
 },
 {
 "knot": "13a_813",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
-"knot": "13a_815",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
-"knot": "13a_823",
 "knotinfo_range": [
 1,
 2
@@ -8104,18 +7184,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13a_989",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12a_406",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13a_990",
 "knotinfo_range": [
 1,
@@ -8154,18 +7222,6 @@
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13n_1005",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "11n_4",
-"bound": 1
-},
-"verified_bound": null
 },
 {
 "knot": "13n_1042",
@@ -8384,18 +7440,6 @@
 "verified_bound": null
 },
 {
-"knot": "13n_1277",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "11n_4",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13n_1281",
 "knotinfo_range": [
 1,
@@ -8572,14 +7616,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13n_1500",
-"knotinfo_range": [
-1,
-3
-],
-"verified_bound": null
-},
-{
 "knot": "13n_1506",
 "knotinfo_range": [
 1,
@@ -8660,18 +7696,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13n_1567",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12n_183",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13n_1576",
 "knotinfo_range": [
 1,
@@ -8696,18 +7720,6 @@
 "verified_bound": null
 },
 {
-"knot": "13n_1590",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12n_466",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13n_16",
 "knotinfo_range": [
 1,
@@ -8728,14 +7740,6 @@
 "knotinfo_range": [
 1,
 2
-],
-"verified_bound": null
-},
-{
-"knot": "13n_163",
-"knotinfo_range": [
-2,
-3
 ],
 "verified_bound": null
 },
@@ -8801,18 +7805,6 @@
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "13n_1681",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12n_8",
-"bound": 2
-},
 "verified_bound": null
 },
 {
@@ -8896,18 +7888,6 @@
 "verified_bound": null
 },
 {
-"knot": "13n_1838",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12n_438",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13n_1861",
 "knotinfo_range": [
 1,
@@ -8962,18 +7942,6 @@
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13n_1936",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12n_381",
-"bound": 2
-},
-"verified_bound": null
 },
 {
 "knot": "13n_1949",
@@ -9072,18 +8040,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13n_2021",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "9_27",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13n_2032",
 "knotinfo_range": [
 1,
@@ -9116,35 +8072,11 @@
 "verified_bound": null
 },
 {
-"knot": "13n_2088",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "9_27",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13n_210",
 "knotinfo_range": [
 2,
 3
 ],
-"verified_bound": null
-},
-{
-"knot": "13n_2115",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12n_504",
-"bound": 1
-},
 "verified_bound": null
 },
 {
@@ -9156,36 +8088,12 @@
 "verified_bound": null
 },
 {
-"knot": "13n_2150",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12n_430",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13n_2155",
 "knotinfo_range": [
 1,
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13n_2159",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "10_148",
-"bound": 2
-},
-"verified_bound": null
 },
 {
 "knot": "13n_2170",
@@ -9273,18 +8181,6 @@
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "13n_2252",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11n_125",
-"bound": 2
-},
 "verified_bound": null
 },
 {
@@ -9456,18 +8352,6 @@
 "verified_bound": null
 },
 {
-"knot": "13n_2515",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11a_81",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13n_2516",
 "knotinfo_range": [
 1,
@@ -9572,18 +8456,6 @@
 "verified_bound": null
 },
 {
-"knot": "13n_2649",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12n_177",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13n_2654",
 "knotinfo_range": [
 1,
@@ -9608,18 +8480,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13n_2661",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11n_91",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13n_2670",
 "knotinfo_range": [
 1,
@@ -9641,18 +8501,6 @@
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "13n_2690",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "10_42",
-"bound": 1
-},
 "verified_bound": null
 },
 {
@@ -9724,18 +8572,6 @@
 "verified_bound": null
 },
 {
-"knot": "13n_2827",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12n_378",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13n_2829",
 "knotinfo_range": [
 1,
@@ -9774,18 +8610,6 @@
 3
 ],
 "verified_bound": 2
-},
-{
-"knot": "13n_2870",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11a_111",
-"bound": 2
-},
-"verified_bound": null
 },
 {
 "knot": "13n_2893",
@@ -9964,35 +8788,11 @@
 "verified_bound": null
 },
 {
-"knot": "13n_3103",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11n_7",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13n_3117",
 "knotinfo_range": [
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "13n_3124",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12n_193",
-"bound": 2
-},
 "verified_bound": null
 },
 {
@@ -10156,18 +8956,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13n_3305",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12n_345",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13n_3307",
 "knotinfo_range": [
 1,
@@ -10272,18 +9060,6 @@
 "verified_bound": null
 },
 {
-"knot": "13n_3402",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12n_23",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13n_3422",
 "knotinfo_range": [
 1,
@@ -10305,18 +9081,6 @@
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "13n_344",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12n_4",
-"bound": 1
-},
 "verified_bound": null
 },
 {
@@ -10576,18 +9340,6 @@
 "verified_bound": null
 },
 {
-"knot": "13n_3576",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12n_215",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13n_3587",
 "knotinfo_range": [
 1,
@@ -10605,14 +9357,6 @@
 },
 {
 "knot": "13n_3599",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
-"knot": "13n_3602",
 "knotinfo_range": [
 1,
 2
@@ -10716,18 +9460,6 @@
 "verified_bound": null
 },
 {
-"knot": "13n_3723",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12n_4",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13n_3732",
 "knotinfo_range": [
 1,
@@ -10741,18 +9473,6 @@
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "13n_3735",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12n_116",
-"bound": 2
-},
 "verified_bound": null
 },
 {
@@ -10772,35 +9492,11 @@
 "verified_bound": 2
 },
 {
-"knot": "13n_3780",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11a_3",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13n_3786",
 "knotinfo_range": [
 2,
 3
 ],
-"verified_bound": null
-},
-{
-"knot": "13n_3788",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12n_116",
-"bound": 2
-},
 "verified_bound": null
 },
 {
@@ -10884,14 +9580,6 @@
 "verified_bound": null
 },
 {
-"knot": "13n_3849",
-"knotinfo_range": [
-2,
-3
-],
-"verified_bound": null
-},
-{
 "knot": "13n_385",
 "knotinfo_range": [
 1,
@@ -10921,18 +9609,6 @@
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "13n_3873",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12n_391",
-"bound": 2
-},
 "verified_bound": null
 },
 {
@@ -11045,18 +9721,6 @@
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "13n_3968",
-"knotinfo_range": [
-1,
-3
-],
-"unverified_candidate": {
-"target": "12n_312",
-"bound": 1
-},
 "verified_bound": null
 },
 {
@@ -11196,14 +9860,6 @@
 "verified_bound": null
 },
 {
-"knot": "13n_4137",
-"knotinfo_range": [
-2,
-3
-],
-"verified_bound": null
-},
-{
 "knot": "13n_4148",
 "knotinfo_range": [
 1,
@@ -11217,18 +9873,6 @@
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "13n_4169",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12n_413",
-"bound": 2
-},
 "verified_bound": null
 },
 {
@@ -11504,18 +10148,6 @@
 "verified_bound": null
 },
 {
-"knot": "13n_4410",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "12n_767",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13n_4413",
 "knotinfo_range": [
 1,
@@ -11620,14 +10252,6 @@
 "verified_bound": 2
 },
 {
-"knot": "13n_4485",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
 "knot": "13n_4495",
 "knotinfo_range": [
 1,
@@ -11645,14 +10269,6 @@
 },
 {
 "knot": "13n_4507",
-"knotinfo_range": [
-1,
-2
-],
-"verified_bound": null
-},
-{
-"knot": "13n_4517",
 "knotinfo_range": [
 1,
 2
@@ -11748,14 +10364,6 @@
 "verified_bound": null
 },
 {
-"knot": "13n_4599",
-"knotinfo_range": [
-2,
-3
-],
-"verified_bound": null
-},
-{
 "knot": "13n_460",
 "knotinfo_range": [
 1,
@@ -11780,18 +10388,6 @@
 "verified_bound": null
 },
 {
-"knot": "13n_4605",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "11n_5",
-"bound": 2
-},
-"verified_bound": null
-},
-{
 "knot": "13n_4611",
 "knotinfo_range": [
 1,
@@ -11803,14 +10399,6 @@
 "knot": "13n_4622",
 "knotinfo_range": [
 2,
-3
-],
-"verified_bound": null
-},
-{
-"knot": "13n_4657",
-"knotinfo_range": [
-1,
 3
 ],
 "verified_bound": null
@@ -12480,18 +11068,6 @@
 "verified_bound": null
 },
 {
-"knot": "13n_520",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "12n_4",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13n_522",
 "knotinfo_range": [
 1,
@@ -12604,35 +11180,11 @@
 "verified_bound": null
 },
 {
-"knot": "13n_635",
-"knotinfo_range": [
-1,
-2
-],
-"unverified_candidate": {
-"target": "11n_21",
-"bound": 1
-},
-"verified_bound": null
-},
-{
 "knot": "13n_638",
 "knotinfo_range": [
 1,
 2
 ],
-"verified_bound": null
-},
-{
-"knot": "13n_645",
-"knotinfo_range": [
-2,
-3
-],
-"unverified_candidate": {
-"target": "10_150",
-"bound": 2
-},
 "verified_bound": null
 },
 {

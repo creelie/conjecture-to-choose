@@ -15,7 +15,7 @@
 \title[Pinch moves and the nonorientable four-genus]{Pinch moves and the nonorientable four-genus of knots with at most thirteen crossings}
 \author{Deep Bhattacharjee}
 \email{itsdeep@live.com}
-\date{October 20, 2026}
+\date{October 21, 2026}
 
 \begin{document}
 \begin{abstract}
@@ -101,6 +101,8 @@ Lemma~\ref{lem:pinch} give $\gamma_4(K)\le\beta$.
 The certificates were found with SnapPy \cite{SnapPy}: for every open knot we applied
 every pinch move to the KnotInfo diagram and to up to twenty-five diagrams obtained from it by
 random Reidemeister moves, and identified the resulting knots by hyperbolic structure. A
+candidate enters the file only if the verifier below accepts it; when it did not, the search
+went on with other crossings and other diagrams of the same knot. A
 second pass used the knots settled in the first pass as targets; the number of certificates
 with such a target is \nchained{}, and the verifier checks them after the certificates of
 their targets.
@@ -115,7 +117,11 @@ at most one crossing share a diagram. Diagrams are compared by Regina's canonica
 signatures, taken up to reflection, rotation and reversal.
 \item \emph{Complements.} The triangulated complements of the two diagrams have
 combinatorially isomorphic triangulations, possibly after Pachner moves that add at most one
-tetrahedron. Then the complements are homeomorphic, and by the theorem of Gordon and Luecke
+tetrahedron, or one of the triangulations obtained from forty simplifications of each
+complement under fixed seeds of Regina's random engine, together with the triangulations one
+Pachner move away from the smallest of them, occurs for both diagrams. Each of these
+triangulations is a triangulation of the complement it came from, so a common one shows that
+the complements are homeomorphic, and by the theorem of Gordon and Luecke
 \cite{GL} the knots agree up to mirror image.
 \end{itemize}
 Both tests are exact: a positive answer is a proof. Regina's simplification is
@@ -173,6 +179,11 @@ for them the target of the pinch move is a knot known to bound a M\"obius band b
 \listtwo
 \end{multicols}
 }
+
+\section*{Data availability}
+The certificates, the verifier and the search programs are in the folder \texttt{crosscap4d}
+of the repository \url{https://github.com/creelie/conjecture-to-choose}, release 1.1.0,
+\url{https://github.com/creelie/conjecture-to-choose/releases/tag/v1.1.0}.
 
 \begin{thebibliography}{99}
 \bibitem{DG} N.~M.~Dunfield and S.~Gong, \emph{Ribbon concordances and slice obstructions:

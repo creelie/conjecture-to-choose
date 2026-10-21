@@ -125,9 +125,15 @@ def complement(pd):
     return T
 
 
-def isosig_cloud(T, height=1):
+def isosig_cloud(T, height=1, hit=None, cap=None):
+    """Isomorphism signatures reached from T by Pachner moves of the given height. The search
+    stops at the first signature in hit, or once cap signatures are found."""
     sigs = {T.isoSig()}
-    T.retriangulate(height, 1, lambda sig, tri: sigs.add(sig) or False)
+
+    def act(sig, tri):
+        sigs.add(sig)
+        return (hit is not None and sig in hit) or (cap is not None and len(sigs) >= cap)
+    T.retriangulate(height, 1, act)
     return sigs
 
 
@@ -156,7 +162,9 @@ _cache = {}
 def same_knot(pd1, pd2, attempts=4):
     """'isotopy', 'complement' or None (no proof found). Regina's simplification is randomised;
     each attempt starts from a fixed seed, so the outcome is reproducible, and any successful
-    attempt is a proof."""
+    attempt is a proof. The seeded complement test runs once, after the first attempt: a later
+    attempt can simplify the complement badly, and the retriangulation of a large triangulation
+    takes far longer than the seeded test."""
     for k in range(attempts):
         regina.RandomEngine.reseedWithDefault()
         for _ in range(997 * k):
@@ -164,6 +172,12 @@ def same_knot(pd1, pd2, attempts=4):
         m = _same_knot_once(pd1, pd2)
         if m:
             return m
+        if k == 0:
+            tg = _cache[tuple(pd2)]
+            if tg.get('seeded') is None:
+                tg['seeded'] = seeded_cloud(pd2)
+            if seeded_cloud(pd1) & tg['seeded']:
+                return 'complement'
     return None
 
 
@@ -193,9 +207,31 @@ def _same_knot_once(pd1, pd2):
         return 'complement'
     if tg['cloud'] is None:
         tg['cloud'] = isosig_cloud(tg['tri'])
-    if isosig_cloud(T1) & tg['cloud']:
+    if isosig_cloud(T1, hit=tg['cloud']) & tg['cloud']:
         return 'complement'
     return None
+
+
+def seeded_cloud(pd, n=40, keep=6):
+    """Isomorphism signatures of the complement simplified from n fixed random seeds, with
+    one level of retriangulation of the smallest ones. Each signature is a triangulation of the
+    complement, so a signature shared by two diagrams proves their complements homeomorphic."""
+    sigs, smallest = set(), []
+    for k in range(n):
+        regina.RandomEngine.reseedWithDefault()
+        for _ in range(7919 * k):
+            regina.RandomEngine.rand(1000)
+        L = regina.Link.fromPD(pd)
+        if k:
+            L.simplify()
+        T = L.complement()
+        T.simplify()
+        sigs.add(T.isoSig())
+        smallest.append(T)
+    m = min(T.size() for T in smallest)
+    for T in [T for T in smallest if T.size() == m][:keep]:
+        T.retriangulate(1, 1, lambda sig, tri: sigs.add(sig) or False)
+    return sigs
 
 
 def is_unknot(pd):

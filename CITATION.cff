@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use these certificates or the verifier, please cite them as below."
-title: "Transvections and the bridge index of thirteen-crossing knots: paper, certificates and verifier"
+message: "If you use these certificates or the verifiers, please cite them as below."
+title: "Bridge index and nonorientable four-genus of knots with at most thirteen crossings: papers, certificates and verifiers"
 type: software
 authors:
   - family-names: Bhattacharjee
@@ -8,8 +8,8 @@ authors:
     orcid: "https://orcid.org/0000-0003-0466-750X"
     email: itsdeep@live.com
     affiliation: "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India; Formerly, University of Calcutta, Senate House, 87/1 College Street, Kolkata 700073, West Bengal, India"
-version: 1.0.0
-doi: 10.5281/zenodo.23521967
+version: 1.1.0
+url: "https://github.com/creelie/conjecture-to-choose/releases/tag/v1.1.0"
 identifiers:
   - type: doi
     value: 10.5281/zenodo.23521967
@@ -26,3 +26,5 @@ keywords:
   - Wirtinger number
   - transvections
   - knot groups
+  - nonorientable four-genus
+  - pinch move

@@ -193,14 +193,20 @@ $q\in\{3,4,5,7,8,9,11\}$, to reflections of $\O_4(\F_q)$ for $q\in\{3,5,7\}$ (bo
 isometry types), or to pseudo-reflections of $\GL_4(\F_2)$ and $\GL_4(\F_3)$ with
 eigenvalue $1$ or $-1$. Random Reidemeister moves
 (SnapPy \cite{SnapPy}) produced no diagram of Wirtinger number $3$; 300 diagrams were tried
-for each knot. These knots stay open: a diagram of Wirtinger number $3$ would give
+for each knot. Abelian colorings give nothing either: for every prime $p<110$ and every
+irreducible factor $g$ of the Alexander polynomial modulo $p$, the colorings of the
+diagram by the Alexander quandle $\F_p[t]/(g)$, $a\triangleright b=ta+(1-t)b$, form a
+space of dimension at most $3$, while dimension $4$ would give $\mu(K)\ge4$. Nor is any of
+these knots the closure of a $3$-braid $\Delta^{2d}w$ in Murasugi's normal form with $|d|\le4$ and $w$ either
+$\sigma_1^{-p_1}\sigma_2^{q_1}\cdots\sigma_1^{-p_s}\sigma_2^{q_s}$ of length at most
+$17-4\max(|d|-1,0)$ or $\sigma_2^m$ with $|m|\le20$ ($53{,}309$ braids, identified by SnapPy), which would give $b(K)\le3$. These knots stay open: a diagram of Wirtinger number $3$ would give
 $b(K)=\mu(K)=3$, and a representation as in Corollary~\ref{cor:four} over another field,
 or a Coxeter quotient of rank $4$, would give $b(K)=\mu(K)=4$.
 
 \section*{Data availability}
 The certificates, the verification program and the search programs are in the repository
-\url{https://github.com/creelie/conjecture-to-choose}. Release 1.0.0 is archived on Zenodo,
-\href{https://doi.org/10.5281/zenodo.23521967}{doi:10.5281/zenodo.23521967}.
+\url{https://github.com/creelie/conjecture-to-choose}, release 1.1.0,
+\url{https://github.com/creelie/conjecture-to-choose/releases/tag/v1.1.0}.
 
 \begin{thebibliography}{9}
 \bibitem{BKM} R.~Blair, A.~Kjuchukova and N.~Morrison, Coxeter quotients of knot groups

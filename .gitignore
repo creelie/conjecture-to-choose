@@ -4,3 +4,8 @@ paper/*.fls
 paper/*.fdb_latexmk
 paper/*.out
 __pycache__/
+crosscap4d/paper/*.aux
+crosscap4d/paper/*.log
+crosscap4d/paper/*.fls
+crosscap4d/paper/*.fdb_latexmk
+crosscap4d/paper/*.out

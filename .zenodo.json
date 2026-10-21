@@ -1,6 +1,6 @@
 {
-  "title": "Transvections and the bridge index of thirteen-crossing knots: paper, certificates and verifier",
-  "version": "1.0.0",
+  "title": "Bridge index and nonorientable four-genus of knots with at most thirteen crossings: papers, certificates and verifiers",
+  "version": "1.1.0",
   "upload_type": "software",
   "creators": [
     {
@@ -9,18 +9,23 @@
       "affiliation": "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India; Formerly, University of Calcutta, Senate House, 87/1 College Street, Kolkata 700073, West Bengal, India"
     }
   ],
-  "description": "<p>Paper, certificates and verifier for <em>Transvections and the bridge index of thirteen-crossing knots</em> by Deep Bhattacharjee.</p><p>KnotInfo (version 2026.10.5) lists the bridge index of 536 prime knots with 13 crossings as [3,4]. For 243 of them the bridge index is 4 and equals the meridional rank, so the meridional rank conjecture of Cappell and Shaneson (Kirby's problem list, Problem 1.11) holds for these knots. The upper bound is a diagram of Wirtinger number 4 (Blair, Kjuchukova, Velazquez and Villanueva). The lower bound is a representation of the knot group in GL(4, F<sub>q</sub>) that sends the meridian to a pseudo-reflection and fixes no nonzero vector: transvections of Sp(4, F<sub>3</sub>) for 67 knots, of Sp(4, F<sub>5</sub>) for 161, and reflections of O(4, F<sub>5</sub>) for 15. The other 293 knots stay open. This is a partial result on a finite list and has not been refereed.</p><p>The archive holds the paper (paper/bridge13.tex and its PDF), one certificate per knot (data/certificates.json), the list of the knots that stay open (data/still_open.json), a verifier that uses only the Python standard library (verify/verify.py) and the search programs (search/).</p>",
+  "description": "<p>Papers, certificates and verifiers for two partial results on the KnotInfo tables (version 2026.10.5), by Deep Bhattacharjee. Neither has been refereed.</p><p><em>Transvections and the bridge index of thirteen-crossing knots</em> (paper/bridge13.pdf). KnotInfo lists the bridge index of 536 prime knots with 13 crossings as [3,4]. For 243 of them the bridge index is 4 and equals the meridional rank, so the meridional rank conjecture holds for these knots; the lower bound is a representation of the knot group sending the meridian to a transvection of Sp(4, F<sub>3</sub>) or Sp(4, F<sub>5</sub>), or a reflection of O(4, F<sub>5</sub>). The other 293 stay open; Alexander-quandle colourings and closed 3-braids in a bounded range settle none of them.</p><p><em>Pinch moves and the nonorientable four-genus of knots with at most thirteen crossings</em> (crosscap4d/paper/crosscap4d.pdf). KnotInfo leaves the smooth nonorientable four-genus open for 3,525 prime knots with 11 to 13 crossings. One pinch move to a slice knot, or to a knot of known nonorientable four-genus, settles 2,093 of them and lowers the upper bound of 575 more; 1,432 stay open. Every certificate is checked in Regina by a program independent of the search.</p><p>The archive holds both papers with their TeX sources (paper/, crosscap4d/paper/, each with paper1/ for the PDF and paper2/ for the TeX zip), one certificate per knot (data/, crosscap4d/data/), the lists of open knots, the verifiers (verify/, crosscap4d/verify/) and the search programs.</p>",
   "keywords": [
+    "4D crosscap number",
+    "KnotInfo",
+    "Mobius band",
+    "Regina",
+    "Wirtinger number",
     "bridge index",
+    "certificates",
+    "knot groups",
     "meridional rank",
     "meridional rank conjecture",
-    "Wirtinger number",
-    "knot groups",
-    "transvections",
+    "nonorientable four-genus",
+    "pinch move",
     "symplectic groups over finite fields",
     "thirteen-crossing knots",
-    "KnotInfo",
-    "certificates"
+    "transvections"
   ],
   "license": "MIT",
   "language": "eng",
