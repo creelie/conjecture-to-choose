@@ -12,7 +12,7 @@
 \theoremstyle{remark}
 \newtheorem{remark}[theorem]{Remark}
 
-\title[Pinch moves and the nonorientable four-genus]{Pinch moves and the nonorientable four-genus of knots with at most thirteen crossings}
+\title[Pinch moves, definite lattices and the nonorientable four-genus]{Pinch moves, definite lattices and the nonorientable four-genus of knots with at most thirteen crossings}
 \author{Deep Bhattacharjee}
 \email{itsdeep@live.com}
 \date{October 21, 2026}
@@ -22,11 +22,14 @@
 The smooth nonorientable four-genus $\gamma_4(K)$ of a knot is the least first Betti number
 of a smooth nonorientable surface in $B^4$ bounded by $K$. KnotInfo leaves it undetermined
 for \ntotal{} prime knots with eleven to thirteen crossings. We determine it for
-\nclosed{} of them and lower the known upper bound for \nimproved{} more. Each result comes
-from one pinch move, the nonorientable band move at a crossing of a diagram, that turns the
-knot into a slice knot or into a knot whose nonorientable four-genus is known. Every
-certificate is a diagram, a crossing and a target knot. A program independent of the search
-checks each one by Reidemeister moves or by an isomorphism of triangulated knot complements.
+\nsettled{} of them and narrow the interval for \nnarrowed{} more. Upper bounds come from
+pinch moves, nonorientable band moves at a crossing of a diagram that turn the knot into a
+slice knot or into a knot whose nonorientable four-genus is known; each is a certificate
+that a program independent of the search checks by Reidemeister moves or by an isomorphism
+of triangulated knot complements. Lower bounds come from Donaldson's diagonalisation
+theorem through the obstructions of Jabuka and Kelly, which we evaluate on the definite
+Goeritz lattices of the alternating knots by an exhaustive search for embeddings into the
+standard lattice.
 \end{abstract}
 \maketitle
 
@@ -46,14 +49,16 @@ incorporates these data. In its version 2026.10.5, \ntotal{} knots with eleven t
 crossings have an interval $[a,b]$ with $a<b$ as the entry for $\gamma_4$.
 
 \begin{theorem}\label{thm:main}
-For each of the \nclosed{} knots listed in the data file \texttt{certificates.json}
-with the flag \texttt{closed}, $\gamma_4(K)$ equals the lower end of its KnotInfo interval:
-\nclosedone{} knots have $\gamma_4(K)=1$ and \nclosedtwo{} have $\gamma_4(K)=2$. For the other
-\nimproved{} knots of the file the upper bound is lowered by at least one.
+The value $\gamma_4(K)$ is determined for \nsettled{} of these knots: \nsettledone{} have
+$\gamma_4(K)=1$, \nsettledtwo{} have $\gamma_4(K)=2$ and \nsettledthree{} have
+$\gamma_4(K)=3$. For \nsettledpinch{} of them a pinch move brings the upper end of the
+KnotInfo interval down to its lower end; for \nsettledlower{} the lower bound of
+Theorem~\ref{thm:jk} raises the lower end to the upper end; for \nsettledboth{} the two
+meet in between. For \nnarrowed{} further knots the interval is narrowed.
 \end{theorem}
 
-Table~\ref{tab:counts} gives the counts by crossing number and by KnotInfo interval.
-The proof uses one elementary move.
+Table~\ref{tab:counts} gives the counts by crossing number and by KnotInfo interval. The
+upper bounds use one elementary move.
 
 \begin{definition}
 Let $D$ be a diagram of a knot $K$ and $c$ a crossing of $D$. Of the two smoothings of $c$,
@@ -75,15 +80,17 @@ a surface $F$ with $b_1(F)=\gamma_4(K')$, then $\Sigma\cup F$ is a nonorientable
 bounded by $K$ with $b_1=b_1(F)+1$. This is the bound used by Jabuka and Kelly \cite{JK}.
 \end{proof}
 
-The lower bounds are not ours. A knot that is not slice has $\gamma_4\ge1$. For the knots
-whose interval starts at $2$, the lower bound is the obstruction to bounding a M\"obius band
-recorded by KnotInfo from Lee and Sabloff \cite{LS}: either Yasuhara's condition
+A knot that is not slice has $\gamma_4\ge1$. For the knots whose KnotInfo interval starts
+at $2$, the lower bound is the obstruction to bounding a M\"obius band recorded by KnotInfo
+from Lee and Sabloff \cite{LS}: either Yasuhara's condition
 $4\operatorname{Arf}(K)-\sigma(K)\in\{0,\pm2\}\pmod 8$ fails \cite{Ya}, or the linking form
-obstruction of Murakami and Yasuhara \cite{MY} applies. Theorem~\ref{thm:main} therefore rests on these
-published obstructions, on the slice status and four-genus values recorded in KnotInfo for
-the targets, and on the certificates below.
+obstruction of Murakami and Yasuhara \cite{MY} applies. The further lower bounds are those of
+Section~\ref{sec:lower}. Theorem~\ref{thm:main} therefore rests on these obstructions, on
+the slice status and four-genus values recorded in KnotInfo for the targets, on the
+certificates of Section~\ref{sec:cert} and on the lattice computations of
+Section~\ref{sec:lower}.
 
-\section{Certificates and their verification}
+\section{Certificates and their verification}\label{sec:cert}
 
 A certificate for a knot $K$ consists of a planar diagram code $D$, a crossing $c$ of $D$, a
 choice of smoothing, and a target: either the unknot or a knot $T$ of KnotInfo. It asserts
@@ -105,7 +112,7 @@ candidate enters the file only if the verifier below accepts it; when it did not
 went on with other crossings and other diagrams of the same knot. A
 second pass used the knots settled in the first pass as targets; the number of certificates
 with such a target is \nchained{}, and the verifier checks them after the certificates of
-their targets.
+their targets. A last pass applied every pinch move to twenty diagrams of each knot left open.
 
 The verifier \texttt{verify.py} does not use SnapPy. It reads the KnotInfo database and
 uses Regina \cite{Regina} for the topology. For (1) and (3) it proves that two diagrams
@@ -136,6 +143,104 @@ crossing, a wrong target, and a bound lowered by one (Table~\ref{tab:selftest}).
 modified certificates with the next crossing that it accepts are valid certificates: that
 crossing gives the same target.
 
+\section{Lower bounds from definite lattices}\label{sec:lower}
+
+Let $D$ be a diagram of a knot $K$ with a checkerboard colouring. Following Gordon and
+Litherland \cite{GoL}, give each crossing $c$ the weight $\eta(c)=\pm1$ according to the
+position of the shaded regions at $c$, let $X_0,\dots,X_n$ be the unshaded regions, and let
+$G$ be the $n\times n$ matrix with $g_{ij}=-\sum\eta(c)$ over the crossings meeting $X_i$
+and $X_j$ for $i\ne j$, and $g_{ii}=-\sum_{k\ne i}g_{ik}$ with $k$ running from $0$ to $n$.
+This is the Goeritz matrix; $\det G=\pm\det K$, and with $\mu=\sum\eta(c)$ over the crossings
+of type~II for the shaded surface,
+\begin{equation}\label{eq:gl}
+\sigma(K)=\operatorname{sign}(G)-\mu .
+\end{equation}
+The form $G$ is the intersection form of the double cover of $B^4$ branched along the shaded
+surface pushed into $B^4$ \cite{GoL}. If $D$ is reduced and alternating, the forms $G_+$ and
+$G_-$ of the two colourings are positive and negative definite.
+
+\begin{theorem}[Jabuka and Kelly {\cite[Theorems 2.10--2.12]{JK}}]\label{thm:jk}
+Let $K$ be a knot with a reduced alternating diagram, let $P_+=G_+$ and $P_-=-G_-$, of ranks
+$r_\pm$, and let $s\equiv\sigma(K)+4\operatorname{Arf}(K)\pmod 8$. Call $\ell\in\mathbb N$
+admissible if $\ell\mid\det K$ and $\det K/\ell$ is a square.
+\begin{enumerate}
+\item If $s=2$ and $P_-\oplus[\ell]$ embeds in $\mathbb Z^{r_-+1}$ for no admissible
+$\ell$, or $s=6$ and $P_+\oplus[\ell]$ embeds in $\mathbb Z^{r_++1}$ for no admissible
+$\ell$, then $\gamma_4(K)\ge2$.
+\item If $s=0$ and neither $P_+\oplus[\ell]$ embeds in $\mathbb Z^{r_++1}$ nor
+$P_-\oplus[\ell]$ in $\mathbb Z^{r_-+1}$, for any admissible $\ell$, then $\gamma_4(K)\ge2$.
+\item If $s=4$ and neither $P_+$ embeds in $\mathbb Z^{r_++2}$ nor $P_-$ in
+$\mathbb Z^{r_-+2}$, then $\gamma_4(K)\ge3$.
+\end{enumerate}
+Here $\mathbb Z^N$ carries the standard positive definite form.
+\end{theorem}
+
+We recall the argument. If $K$ bounds a M\"obius band $\Sigma\subset B^4$, the double
+branched cover $W(\Sigma)$ has $b_1=0$ \cite{JK} and $b_2=1$, its form is $[\pm\ell]$ with
+$\ell$ admissible by a theorem of Gilmer and of Owens and Strle \cite[Corollary 2.8]{JK}, and the congruence of
+Gilmer and Livingston \cite{GiL} fixes the sign of $\ell$ by $s$. Gluing $W(\Sigma)$ with
+reversed orientation to the double cover bounded by the shaded surface whose Goeritz form has
+the opposite sign gives a closed definite smooth four-manifold whose form contains
+$G\oplus[\mp\ell]$ in full rank. By Donaldson's theorem \cite{Do} that form is diagonal;
+changing the sign of the whole form gives (1) and (2). In (3) a surface with $b_1=2$ would
+give a definite $W(\Sigma)$ of rank two, of either sign, and the same gluing embeds $P_+$ or
+$P_-$ in a diagonal lattice of rank two more. In (1) the statement of \cite{JK} names the
+target lattice as $\varepsilon$-definite; the argument above, which is theirs, produces the
+lattice of the sign of $G$, and it is in this form that we apply it.
+
+One convention needs a word. Since $\gamma_4$ is invariant under mirror image,
+and mirroring changes the sign of every weight $\eta(c)$, of $G$, of $\mu$ and of $\sigma$,
+it does not matter which of the two weight conventions is called positive, as long as
+$\sigma$ is computed from \eqref{eq:gl} with the same weights.
+
+\begin{lemma}\label{lem:complement}
+Let $P$ be a positive definite lattice of rank $r$ and $\ell\in\mathbb N$. Then
+$P\oplus[\ell]$ embeds in $\mathbb Z^{r+1}$ if and only if there are an embedding
+$\phi\colon P\to\mathbb Z^{r+1}$ and an integer $k\ge1$ with $\ell=k^2|w|^2$, where $w$ is a
+primitive vector spanning the orthogonal complement of $\phi(P)$.
+\end{lemma}
+
+\begin{proof}
+The orthogonal complement of a sublattice of rank $r$ in $\mathbb Z^{r+1}$ is $\mathbb Z w$
+for a primitive $w$, and a vector of norm $\ell$ orthogonal to $\phi(P)$ is $kw$ with
+$k^2|w|^2=\ell$.
+\end{proof}
+
+\begin{lemma}\label{lem:search}
+Let $P$ be a positive definite Gram matrix of rank $r$ and $N\ge r$. Every embedding of $P$
+in $\mathbb Z^N$ is carried by a signed permutation of the coordinates to one found by the
+following search. The basis vectors $e_1,\dots,e_r$ are placed in turn; if the vectors
+already placed are supported on the first $t$ coordinates, the next vector is
+$(x,y,0)$ with $x\in\mathbb Z^t$ arbitrary, subject to the norm and the inner products with
+the vectors already placed, and $y$ a nonincreasing sequence of positive integers.
+\end{lemma}
+
+\begin{proof}
+By induction on the number of vectors placed. Given an embedding $v_1,\dots,v_r$ whose first
+$i-1$ vectors are of the stated form, supported on the first $t$ coordinates, the signed
+permutations of the coordinates beyond $t$ fix $v_1,\dots,v_{i-1}$; one of them makes the
+entries of $v_i$ beyond $t$ nonnegative and nonincreasing, with its nonzero entries first,
+and it does not change the shape of the vectors already placed.
+\end{proof}
+
+We take the KnotInfo diagram of each open alternating knot, compute both Goeritz forms and
+$\sigma$ from \eqref{eq:gl}, check that the two colourings give the same $\sigma$, that
+$|\sigma|$ agrees with KnotInfo and that the forms are definite, and run the search of
+Lemma~\ref{lem:search} to the end: for (1) and (2) it lists the norms $|w|^2$ of
+Lemma~\ref{lem:complement} over all embeddings, for (3) it decides whether an embedding
+exists. Of the \ntotal{} knots, the hypotheses of Theorem~\ref{thm:jk} hold and raise the
+KnotInfo lower end for \nlower{}: \nlowertwo{} reach $\gamma_4\ge2$ (\nlowerten{} by (1)
+and \nlowertwelve{} by (2)) and \nlowerthree{} reach $\gamma_4\ge3$ by (3). The data are in
+\texttt{lower\_bounds.json}.
+
+The program \texttt{verify\_lower.py} recomputes every entry with the basis order of the
+search shuffled under a fixed seed, and runs three tests of the conventions. On the
+alternating knots with at most eleven crossings whose $\gamma_4$ KnotInfo records, the bound
+never exceeds the recorded value, while the same program with the sign of $\sigma$ reversed
+contradicts the recorded value for more than two hundred of them. On the alternating knots
+of \texttt{certificates.json}, the bound never exceeds the upper bound of the pinch
+certificate.
+
 \section{Results}
 
 \begin{table}[htbp]
@@ -153,9 +258,11 @@ crossing gives the same target.
 \label{tab:selftest}
 \end{table}
 
-The remaining \nopen{} knots, listed in \texttt{still\_open.json}, are not settled by one
-pinch move found in this way. For a knot with interval $[1,2]$ that is not settled, no
-pinch move we tried gives a slice knot; this says nothing about whether $\gamma_4=1$.
+The remaining \nopen{} knots, with their narrowed intervals, are listed in
+\texttt{still\_open.json}. For a knot with interval $[1,2]$ that is not settled, no pinch
+move we tried gives a slice knot, and Theorem~\ref{thm:jk} does not apply or does not
+obstruct; this says nothing about whether $\gamma_4=1$. Theorem~\ref{thm:jk} needs a definite
+diagram, so it says nothing about the nonalternating knots.
 
 \begin{remark}
 The \nclosedone{} M\"obius bands found here are not in the data of Lee and Sabloff
@@ -169,31 +276,40 @@ for them the target of the pinch move is a knot known to bound a M\"obius band b
 \section{The settled knots}\label{app:list}
 
 {\footnotesize
-\noindent\textbf{$\gamma_4=1$ (\nclosedone{} knots).}
+\noindent\textbf{$\gamma_4=1$ (\nsettledone{} knots).}
 \begin{multicols}{6}\raggedright
 \listone
 \end{multicols}
 
-\noindent\textbf{$\gamma_4=2$ (\nclosedtwo{} knots).}
+\noindent\textbf{$\gamma_4=2$ (\nsettledtwo{} knots).}
 \begin{multicols}{6}\raggedright
 \listtwo
+\end{multicols}
+
+\noindent\textbf{$\gamma_4=3$ (\nsettledthree{} knots).}
+\begin{multicols}{6}\raggedright
+\listthree
 \end{multicols}
 }
 
 \section*{Data availability}
-The certificates, the verifier and the search programs are in the folder \texttt{crosscap4d}
-of the repository \url{https://github.com/creelie/conjecture-to-choose}, release 1.1.0,
-\url{https://github.com/creelie/conjecture-to-choose/releases/tag/v1.1.0}.
+The certificates, the lower bounds, both verifiers and the search programs are in the folder \texttt{crosscap4d}
+of the repository \url{https://github.com/creelie/conjecture-to-choose}, release 1.2.0,
+\url{https://github.com/creelie/conjecture-to-choose/releases/tag/v1.2.0}.
 
 \begin{thebibliography}{99}
 \bibitem{DG} N.~M.~Dunfield and S.~Gong, \emph{Ribbon concordances and slice obstructions:
 experiments and examples}, arXiv:2512.21825.
+\bibitem{Do} S.~K.~Donaldson, \emph{The orientation of Yang--Mills moduli spaces and
+4-manifold topology}, J. Differential Geom. 26 (1987), 397--428.
 \bibitem{Fa} M.~Fairchild, \emph{The non-orientable 4-genus of 11 crossing non-alternating
 knots}, J. Knot Theory Ramifications 34 (2025), no.~1.
 \bibitem{Gh} N.~Ghanbarian, \emph{The non-orientable 4-genus for knots with 10 crossings},
 J. Knot Theory Ramifications 31 (2022), no.~5, 2250034.
 \bibitem{GiL} P.~M.~Gilmer and C.~Livingston, \emph{The nonorientable 4-genus of knots},
 J. Lond. Math. Soc. (2) 84 (2011), 559--577.
+\bibitem{GoL} C.~McA.~Gordon and R.~A.~Litherland, \emph{On the signature of a link},
+Invent. Math. 47 (1978), 53--69.
 \bibitem{GL} C.~McA.~Gordon and J.~Luecke, \emph{Knots are determined by their complements},
 J. Amer. Math. Soc. 2 (1989), 371--415.
 \bibitem{JK} S.~Jabuka and T.~Kelly, \emph{The nonorientable 4-genus for knots with 8 or 9

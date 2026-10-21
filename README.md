@@ -18,9 +18,11 @@ The list is in [`paper/bridge13.pdf`](paper/bridge13.pdf), Appendix A, and in
 ## Second result: the nonorientable four-genus
 
 The folder [`crosscap4d/`](crosscap4d/) settles the smooth nonorientable four-genus γ₄ of
-2,093 of the 3,525 knots with 11 to 13 crossings that KnotInfo leaves open (465 at γ₄ = 1,
-1,628 at γ₄ = 2) and lowers the upper bound of 575 more, each by one pinch move checked in
-Regina. The paper is [`crosscap4d/paper/crosscap4d.pdf`](crosscap4d/paper/crosscap4d.pdf).
+2,537 of the 3,525 knots with 11 to 13 crossings that KnotInfo leaves open (520 at γ₄ = 1,
+1,995 at γ₄ = 2, 22 at γ₄ = 3) and narrows the interval of 376 more. The upper bounds are
+pinch moves checked in Regina; the new lower bounds come from Donaldson's theorem through
+the Goeritz-lattice obstructions of Jabuka and Kelly. The paper is
+[`crosscap4d/paper/crosscap4d.pdf`](crosscap4d/paper/crosscap4d.pdf).
 
 ## The proof
 

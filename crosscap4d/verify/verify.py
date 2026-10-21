@@ -162,17 +162,19 @@ _cache = {}
 def same_knot(pd1, pd2, attempts=4):
     """'isotopy', 'complement' or None (no proof found). Regina's simplification is randomised;
     each attempt starts from a fixed seed, so the outcome is reproducible, and any successful
-    attempt is a proof. The seeded complement test runs once, after the first attempt: a later
-    attempt can simplify the complement badly, and the retriangulation of a large triangulation
-    takes far longer than the seeded test."""
-    for k in range(attempts):
-        regina.RandomEngine.reseedWithDefault()
-        for _ in range(997 * k):
-            regina.RandomEngine.rand(1000)
-        m = _same_knot_once(pd1, pd2)
-        if m:
-            return m
-        if k == 0:
+    attempt is a proof. The first attempt compares diagrams and complements directly; then the
+    seeded complement test runs once; then each attempt also compares the triangulations one
+    Pachner move away. The retriangulation of a complement that simplifies badly can take far
+    longer than the seeded test, so it comes last."""
+    for clouds in (False, True):
+        for k in range(attempts if clouds else 1):
+            regina.RandomEngine.reseedWithDefault()
+            for _ in range(997 * k):
+                regina.RandomEngine.rand(1000)
+            m = _same_knot_once(pd1, pd2, clouds)
+            if m:
+                return m
+        if not clouds:
             tg = _cache[tuple(pd2)]
             if tg.get('seeded') is None:
                 tg['seeded'] = seeded_cloud(pd2)
@@ -181,7 +183,7 @@ def same_knot(pd1, pd2, attempts=4):
     return None
 
 
-def _same_knot_once(pd1, pd2):
+def _same_knot_once(pd1, pd2, clouds=True):
     key = tuple(pd2)
     if key not in _cache:
         B = regina.Link.fromPD(pd2)
@@ -205,6 +207,8 @@ def _same_knot_once(pd1, pd2):
         tg['tri'] = complement(pd2)
     if T1.isIsomorphicTo(tg['tri']) is not None:
         return 'complement'
+    if not clouds:
+        return None
     if tg['cloud'] is None:
         tg['cloud'] = isosig_cloud(tg['tri'])
     if isosig_cloud(T1, hit=tg['cloud']) & tg['cloud']:
