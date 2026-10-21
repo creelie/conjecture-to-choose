@@ -1,0 +1,57 @@
+name: release
+
+# Run by hand from the Actions tab: it checks every certificate against KnotInfo, packs the
+# repository into a zip, tags the chosen commit and publishes a GitHub release with the zip and
+# the paper attached. Zenodo archives the release and mints a DOI if the repository is switched
+# on at https://zenodo.org/account/settings/github/.
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag, e.g. v1.0.0"
+        required: true
+        default: "v1.0.0"
+      target:
+        description: "Branch or commit to tag"
+        required: true
+        default: "main"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.target }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check that the tag matches the metadata
+        env:
+          TAG: ${{ inputs.tag }}
+        run: |
+          v=$(python -c "import json; print(json.load(open('.zenodo.json'))['version'])")
+          test "v$v" = "$TAG" || { echo "tag $TAG but .zenodo.json has $v"; exit 1; }
+          grep -qx "version: $v" CITATION.cff || { echo "CITATION.cff does not have version $v"; exit 1; }
+      - name: Check every certificate
+        run: |
+          python -m pip install database_knotinfo==2026.10.5
+          python verify/verify.py --knotinfo
+      - name: Pack the repository
+        env:
+          TAG: ${{ inputs.tag }}
+        run: git archive --format=zip --prefix="conjecture-to-choose-$TAG/" -o "conjecture-to-choose-$TAG.zip" HEAD
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag }}
+          TARGET: ${{ inputs.target }}
+        run: |
+          gh release create "$TAG" "conjecture-to-choose-$TAG.zip" paper/bridge13.pdf \
+            --target "$TARGET" \
+            --title "$TAG: Transvections and the bridge index of thirteen-crossing knots" \
+            --notes-file .github/RELEASE_NOTES.md

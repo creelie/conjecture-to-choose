@@ -70,6 +70,9 @@ All 243 pass in a few seconds. The verifier rejects four kinds of corrupted cert
   over Gram matrices of the seeds; `w3.py` for 3-bridge diagrams). `make_certificates.py`
   writes `data/certificates.json` from their output. These programs need numpy, SnapPy and
   database_knotinfo, and are run from `search/`; the proof does not depend on them.
+- `CITATION.cff` and `.zenodo.json`: how to cite this repository, and the metadata of its Zenodo
+  archive. `.github/workflows/release.yml`, run by hand, checks every certificate against KnotInfo
+  and publishes a release with the paper and a zip of the repository; Zenodo archives it.
 
 ## References
 
