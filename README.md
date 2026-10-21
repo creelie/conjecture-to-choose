@@ -74,6 +74,13 @@ All 243 pass in a few seconds. The verifier rejects four kinds of corrupted cert
   archive. `.github/workflows/release.yml`, run by hand, checks every certificate against KnotInfo
   and publishes a release with the paper and a zip of the repository; Zenodo archives it.
 
+## Citing
+
+Release 1.0.0 is archived on Zenodo:
+[10.5281/zenodo.23521967](https://doi.org/10.5281/zenodo.23521967). The DOI
+[10.5281/zenodo.23521966](https://doi.org/10.5281/zenodo.23521966) always resolves to the latest
+version. [`CITATION.cff`](CITATION.cff) has the full citation.
+
 ## References
 
 - R. Blair, A. Kjuchukova, R. Velazquez, P. Villanueva, Wirtinger systems of generators of
