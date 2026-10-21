@@ -9,6 +9,14 @@ authors:
     email: itsdeep@live.com
     affiliation: "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India; Formerly, University of Calcutta, Senate House, 87/1 College Street, Kolkata 700073, West Bengal, India"
 version: 1.0.0
+doi: 10.5281/zenodo.23521967
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23521967
+    description: "Version 1.0.0"
+  - type: doi
+    value: 10.5281/zenodo.23521966
+    description: "All versions"
 date-released: 2026-10-21
 license: MIT
 repository-code: "https://github.com/creelie/conjecture-to-choose"
