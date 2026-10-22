@@ -55,7 +55,7 @@ jobs:
           TAG: ${{ inputs.tag }}
           TARGET: ${{ inputs.target }}
         run: |
-          gh release create "$TAG" "conjecture-to-choose-$TAG.zip" paper/bridge13.pdf crosscap4d/paper/crosscap4d.pdf \
+          gh release create "$TAG" "conjecture-to-choose-$TAG.zip" paper/paper1/knot-tables.pdf paper/bridge13.pdf crosscap4d/paper/crosscap4d.pdf \
             --target "$TARGET" \
             --title "$TAG: bridge index and nonorientable four-genus of knots with at most thirteen crossings" \
             --notes-file .github/RELEASE_NOTES.md

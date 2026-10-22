@@ -1,5 +1,7 @@
 # Bridge index of thirteen-crossing knots
 
+Both results of this repository are written up in one paper, *The bridge index and the nonorientable four-genus of knots with at most thirteen crossings*: [`paper/paper1/knot-tables.pdf`](paper/paper1/knot-tables.pdf), with the TeX source in [`paper/paper2/knot-tables-tex.zip`](paper/paper2/knot-tables-tex.zip). Part I is the bridge index, Part II the nonorientable four-genus.
+
 KnotInfo (version 2026.10.5) lists the bridge index of 536 prime knots with 13 crossings as
 `[3,4]`: it is known to be 3 or 4, and the exact value is not known.
 
@@ -68,8 +70,10 @@ All 243 pass in a few seconds. The verifier rejects four kinds of corrupted cert
 
 ## Layout
 
-- `paper/`: the paper `bridge13.tex` and its PDF (also in `paper1/`, with the TeX sources
-  zipped in `paper2/`). `make_tables.py` writes `generated.tex` from the data.
+- `paper/`: the joint paper in `paper1/` (PDF) and `paper2/` (TeX zip), its source in
+  `knot-tables/` (`make_generated.py` copies the two `generated.tex` files after
+  `paper/make_tables.py` and `crosscap4d/paper/make_tables.py`), and the earlier paper
+  `bridge13.tex` with its PDF. `make_tables.py` writes `generated.tex` from the data.
 - `data/certificates.json`: for each knot, the KnotInfo PD code, the prime q, one 4×4 matrix
   per edge, and four seed edges.
 - `data/still_open.json`: the 293 knots with entry `[3,4]` that remain open.

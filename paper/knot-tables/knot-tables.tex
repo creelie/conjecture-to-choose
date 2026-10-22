@@ -1,0 +1,565 @@
+\documentclass[11pt]{amsart}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{amssymb,mathtools,booktabs,multicol}
+\usepackage[hidelinks]{hyperref}
+\input{bridge-generated}
+\input{crosscap-generated}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\numberwithin{equation}{section}
+
+\newcommand{\F}{\mathbb{F}}
+\DeclareMathOperator{\rk}{rank}
+\DeclareMathOperator{\Sp}{Sp}
+\DeclareMathOperator{\GL}{GL}
+\renewcommand{\O}{\mathrm{O}}
+
+\title[Bridge index and nonorientable four-genus through thirteen crossings]{The bridge index and the nonorientable four-genus of knots with at most thirteen crossings}
+\author{Deep Bhattacharjee}
+\address{Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India; formerly, University of Calcutta, Kolkata 700073, India}
+\email{itsdeep@live.com}
+\date{October 22, 2026}
+\subjclass[2020]{Primary 57K10; Secondary 57K40, 20C33, 11E12}
+\keywords{bridge index, meridional rank, transvections, nonorientable four-genus, pinch moves, Goeritz lattices, Donaldson's theorem, KnotInfo}
+
+\begin{document}
+\begin{abstract}
+We determine two invariants for knots that the KnotInfo database leaves open. KnotInfo lists
+the bridge index of \btotal{} prime knots with thirteen crossings as either $3$ or $4$; we
+prove that \bclosed{} of them have bridge index and meridional rank $4$, so the meridional
+rank conjecture holds for them. The lower bound comes from representations of the knot
+group in $\GL_4(\F_q)$ that send a meridian to a transvection or a reflection and fix no
+nonzero vector. KnotInfo leaves the smooth nonorientable four-genus open for \ntotal{}
+prime knots with eleven to thirteen crossings; we determine it for \nsettled{} of them and
+narrow the interval for \nnarrowed{} more. Upper bounds come from pinch moves, lower bounds
+from the Goeritz-lattice obstructions of Jabuka and Kelly evaluated by an exhaustive search
+for lattice embeddings. Every bound is a certificate checked by a program independent of
+the search that found it.
+\end{abstract}
+\maketitle
+
+\section{Introduction}
+
+The KnotInfo database \cite{KnotInfo} records, for each prime knot with at most thirteen
+crossings, the values of several dozen invariants, and an interval where the value is not
+known. This paper closes many of these intervals for two invariants, the bridge index and
+the smooth nonorientable four-genus, both in the version 2026.10.5 of the database. The two
+parts are independent and use different methods; they share the source of the diagrams,
+the form of the results, a list of certificates, one per knot, each checked by a short
+program, and the treatment of the knots that remain open.
+
+\subsection*{The bridge index}
+Let $K\subset S^3$ be a knot, $G=\pi_1(S^3\setminus K)$ its group and $m\in G$ a meridian.
+The \emph{bridge index} $b(K)$ is the least number of local maxima of a height function on
+a knot isotopic to $K$. The \emph{meridional rank} $\mu(K)$ is the least number of
+meridians, that is conjugates of $m^{\pm1}$, that generate $G$. The overpasses of a
+$b$-bridge presentation give $b$ meridians generating $G$, so $\mu(K)\le b(K)$. Cappell and
+Shaneson asked whether equality always holds \cite[Problem~1.11]{Kirby}; this is the
+meridional rank conjecture.
+
+Blair, Kjuchukova, Velazquez and Villanueva defined the Wirtinger number $\omega(D)$ of a
+diagram $D$ and proved that its minimum over the diagrams of $K$ is $b(K)$ \cite{BKVV}. In
+particular
+\begin{equation}\label{eq:upper}
+b(K)\le\omega(D)\quad\text{for every diagram $D$ of $K$.}
+\end{equation}
+Blair, Kjuchukova and Morrison bounded $\mu(K)$ from below by surjections of $G$ onto
+Coxeter groups sending meridians to reflections, and so computed $b(K)=\mu(K)$ for
+595{,}515 knots up to sixteen crossings \cite{BKM}. KnotInfo records the bridge index of
+thirteen-crossing knots from these bounds and from the plain sphere number \cite{BKP}. In
+the version 2026.10.5, \btotal{} knots with thirteen crossings have the entry $[3,4]$.
+
+\begin{theorem}\label{thm:bridge}
+For each of the \bclosed{} knots $K$ listed in Appendix~\ref{app:bclosed},
+\[
+b(K)=\mu(K)=4 .
+\]
+In particular the meridional rank conjecture holds for these knots.
+\end{theorem}
+
+The upper bound is \eqref{eq:upper} applied to the KnotInfo diagram of $K$, whose Wirtinger
+number is $4$. The lower bound is Lemma~\ref{lem:fixed}, applied to a representation
+$\rho\colon G\to\GL_4(\F_q)$ with $q\in\{3,5\}$ that sends the meridian to a transvection of
+$\Sp_4(\F_q)$ or to a reflection of an orthogonal group $\O_4(\F_5)$. Reflections in
+Coxeter groups are pseudo-reflections too; the transvections, of order $3$ and $5$, are
+what settles most of these knots. Table~\ref{tab:groups} gives the counts.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{llr}
+\toprule
+group & image of a meridian & knots \\
+\midrule
+\bgrouptable
+\bottomrule
+\end{tabular}
+\caption{The certificates of Theorem~\ref{thm:bridge}, by the group used.}\label{tab:groups}
+\end{table}
+
+\subsection*{The nonorientable four-genus}
+Every knot $K\subset S^3=\partial B^4$ bounds a smooth surface in $B^4$; if $K$ is not
+slice, it bounds nonorientable ones as well. The \emph{nonorientable four-genus}
+$\gamma_4(K)$ is the least first Betti number of a smooth compact nonorientable surface
+$F\subset B^4$ with $\partial F=K$; for slice knots one sets $\gamma_4(K)=1$. It was studied
+by Murakami and Yasuhara \cite{MY} and by Gilmer and Livingston \cite{GiL}. Its values on
+small knots were computed by Jabuka and Kelly for eight and nine crossings \cite{JK}, by
+Ghanbarian for ten \cite{Gh} and by Fairchild for nonalternating knots with eleven
+\cite{Fa}. Lee and Sabloff \cite{LS} extended the computation to fourteen crossings with an
+algorithmic search for M\"obius bands in the style of Dunfield and Gong \cite{DG}, together
+with the Arf invariant obstruction of Yasuhara \cite{Ya} and a linking form obstruction of
+Murakami and Yasuhara \cite{MY}. KnotInfo incorporates these data. In its version
+2026.10.5, \ntotal{} knots with eleven to thirteen crossings have an interval $[a,b]$ with
+$a<b$ as the entry for $\gamma_4$.
+
+\begin{theorem}\label{thm:gamma}
+The value $\gamma_4(K)$ is determined for \nsettled{} of these knots: \nsettledone{} have
+$\gamma_4(K)=1$, \nsettledtwo{} have $\gamma_4(K)=2$ and \nsettledthree{} have
+$\gamma_4(K)=3$. For \nsettledpinch{} of them a pinch move brings the upper end of the
+KnotInfo interval down to its lower end; for \nsettledlower{} the lower bound of
+Theorem~\ref{thm:jk} raises the lower end to the upper end; for \nsettledboth{} the two
+meet in between. For \nnarrowed{} further knots the interval is narrowed.
+\end{theorem}
+
+The knots are listed in Appendix~\ref{app:glist}, and Table~\ref{tab:counts} gives the
+counts by crossing number and by KnotInfo interval. Part~I (Sections~\ref{sec:pseudo}
+to~\ref{sec:bopen}) proves Theorem~\ref{thm:bridge}, Part~II (Sections~\ref{sec:pinch}
+to~\ref{sec:gopen}) proves Theorem~\ref{thm:gamma}. Both parts end with what the methods do
+not reach.
+
+\part*{Part I. The bridge index}
+
+\section{A lower bound from pseudo-reflections}\label{sec:pseudo}
+
+A \emph{pseudo-reflection} of a vector space $V$ is an element $g\in\GL(V)$ with
+$\rk(g-1)=1$. It fixes the hyperplane $\ker(g-1)$ pointwise.
+
+\begin{lemma}\label{lem:fixed}
+Let $V$ be a vector space of dimension $n$ over a field and let $\rho\colon G\to\GL(V)$ be
+a homomorphism such that $\rho(m)$ is a pseudo-reflection. Let $V^{G}$ be the subspace of
+vectors fixed by $\rho(G)$. Then
+\[
+\mu(K)\ \ge\ n-\dim V^{G}.
+\]
+\end{lemma}
+
+\begin{proof}
+Let $m_1,\dots,m_k$ be meridians generating $G$, with $m_i=g_im^{\epsilon_i}g_i^{-1}$ and
+$\epsilon_i=\pm1$. Since $\rho(m)^{-1}-1=-\rho(m)^{-1}(\rho(m)-1)$, each $\rho(m_i)$
+is a pseudo-reflection, and $H_i=\ker(\rho(m_i)-1)$ is a hyperplane. The intersection
+$H_1\cap\dots\cap H_k$ has dimension at least $n-k$ and is fixed by every $\rho(m_i)$,
+hence by $\rho(G)$. So $n-k\le\dim V^G$.
+\end{proof}
+
+\begin{corollary}\label{cor:four}
+If $\dim V=4$, $\rho(m)$ is a pseudo-reflection and $V^G=0$, then $b(K)\ge\mu(K)\ge4$.
+\end{corollary}
+
+In a diagram with arcs $x_1,\dots,x_r$, the Wirtinger presentation makes such a $\rho$ an
+assignment of matrices $X_i=\rho(x_i)$ to the arcs that satisfies
+$X_c=X_o^{\pm1}X_aX_o^{\mp1}$ at each crossing, where $x_o$ is the overarc and $x_a,x_c$
+are the underarcs. Since the $X_i$ generate $\rho(G)$,
+\[
+V^G=\bigcap_{i=1}^{r}\ker(X_i-1).
+\]
+Both conditions are finite computations once the $X_i$ are written down.
+
+\subsection*{Transvections}
+Let $\omega$ be a nondegenerate alternating form on $V=\F_q^4$. For $v\ne0$ the
+transvection $t_v(x)=x+\omega(x,v)\,v$ lies in $\Sp(V,\omega)$, $t_v-1$ has rank one,
+$t_{-v}=t_v$, and $g\,t_v\,g^{-1}=t_{gv}$ for $g\in\Sp(V,\omega)$. A representation with
+$X_i=t_{v_i}$ is therefore the same thing as a coloring of the arcs by vectors with
+\[
+v_c=\pm\,t_{v_o}^{\pm1}(v_a)
+\]
+at every crossing, and $\ker(X_i-1)=v_i^{\perp}$. So
+$V^G=(\operatorname{span}\{v_i\})^{\perp}$, which is $0$ exactly when the $v_i$ span $V$.
+
+\subsection*{Reflections}
+Let $B$ be a nondegenerate symmetric bilinear form on $\F_q^4$, $q$ odd. For $B(v,v)\ne0$
+the reflection $r_v(x)=x-2\frac{B(x,v)}{B(v,v)}\,v$ satisfies $g\,r_v\,g^{-1}=r_{gv}$ for
+$g\in\O(B)$, and again $V^G=(\operatorname{span}\{v_i\})^{\perp}$.
+
+\section{The certificates for the bridge index}\label{sec:bcert}
+
+For each knot of Appendix~\ref{app:bclosed} the file \texttt{data/certificates.json}
+contains:
+\begin{itemize}
+\item the PD code of $K$ from KnotInfo, with edges numbered $1,\dots,2n$ along the
+orientation and $[a,b,c,d]$ the edges at a crossing counterclockwise from the incoming
+underedge $a$;
+\item a prime $q$ and a $4\times4$ matrix over $\F_q$ for every edge;
+\item four edges on distinct arcs, the seeds of a Wirtinger coloring.
+\end{itemize}
+The program \texttt{verify/verify.py} uses only the Python standard library. For every
+knot it checks:
+\begin{enumerate}
+\item the matrices are constant along each arc, where an arc is a maximal run of edges
+between two undercrossings;
+\item at each crossing $[a,b,c,d]$ the relation $X_c=X_b^{-1}X_aX_b$ holds if the
+overstrand runs from $b$ to $d$, and $X_c=X_bX_aX_b^{-1}$ if it runs from $d$ to $b$
+(changing this convention at every crossing at once replaces $K$ by its mirror image, which
+has the same $b$ and $\mu$);
+\item each $X_i-1$ has rank $1$, and the matrices $X_i-1$ stacked together have rank $4$,
+so that $V^G=0$;
+\item starting from the four seed arcs, the coloring moves of \cite{BKVV} (if the overarc
+and one underarc at a crossing are colored, color the other underarc) color every arc, so
+$\omega(D)\le4$.
+\end{enumerate}
+By Corollary~\ref{cor:four} and \eqref{eq:upper}, items (1)--(4) prove $b(K)=\mu(K)=4$.
+With the option \texttt{--knotinfo} the program also checks that each PD code is the one
+in KnotInfo and that KnotInfo lists the bridge index as $[3,4]$. All \bclosed{}
+certificates are checked in a few seconds. The program rejects altered certificates: a
+changed matrix entry, a seed set on three arcs, one crossing with its overstrand reversed,
+or identity matrices.
+
+\begin{remark}
+The certificates were found by a search, which plays no part in the proof. If the four
+seed vectors do not span $V$, every arc vector lies in their span, so a certificate must
+have seeds forming a basis. A coloring is then determined by the Gram matrix of the seeds:
+six entries of an alternating matrix, or six off-diagonal entries of a symmetric matrix
+with a fixed diagonal. The search runs over all such matrices and propagates the colors
+from the seeds through the crossings. The Wirtinger relations are then checked at the
+remaining crossings.
+\end{remark}
+
+\section{The knots whose bridge index remains open}\label{sec:bopen}
+
+For the other \bopen{} knots with entry $[3,4]$ (Appendix~\ref{app:bopen}) we found
+neither bound. The exhaustive searches described above found no representation satisfying
+Corollary~\ref{cor:four} with meridians sent to transvections of $\Sp_4(\F_q)$ for
+$q\in\{3,4,5,7,8,9,11\}$, to reflections of $\O_4(\F_q)$ for $q\in\{3,5,7\}$ (both
+isometry types), or to pseudo-reflections of $\GL_4(\F_2)$ and $\GL_4(\F_3)$ with
+eigenvalue $1$ or $-1$. Random Reidemeister moves (SnapPy \cite{SnapPy}) produced no
+diagram of Wirtinger number $3$; 300 diagrams were tried for each knot. Abelian colorings
+give nothing either: for every prime $p<110$ and every irreducible factor $g$ of the
+Alexander polynomial modulo $p$, the colorings of the diagram by the Alexander quandle
+$\F_p[t]/(g)$, $a\triangleright b=ta+(1-t)b$, form a space of dimension at most $3$, while
+dimension $4$ would give $\mu(K)\ge4$. Nor is any of these knots the closure of a
+$3$-braid $\Delta^{2d}w$ in Murasugi's normal form with $|d|\le4$ and $w$ either
+$\sigma_1^{-p_1}\sigma_2^{q_1}\cdots\sigma_1^{-p_s}\sigma_2^{q_s}$ of length at most
+$17-4\max(|d|-1,0)$ or $\sigma_2^m$ with $|m|\le20$ ($53{,}309$ braids, identified by
+SnapPy), which would give $b(K)\le3$. A diagram of Wirtinger number $3$ would give
+$b(K)=\mu(K)=3$, and a representation as in Corollary~\ref{cor:four} over another field,
+or a Coxeter quotient of rank $4$, would give $b(K)=\mu(K)=4$.
+
+\part*{Part II. The nonorientable four-genus}
+
+\section{Pinch moves}\label{sec:pinch}
+
+\begin{definition}
+Let $D$ be a diagram of a knot $K$ and $c$ a crossing of $D$. Of the two smoothings of $c$,
+one respects the orientation of $K$ and gives a two-component link; the other gives a knot
+$K'$. We say $K'$ is obtained from $K$ by a \emph{pinch move} at $c$.
+\end{definition}
+
+\begin{lemma}\label{lem:pinch}
+If $K'$ is obtained from $K$ by a pinch move, then $\gamma_4(K)\le 1$ when $K'$ is slice,
+and $\gamma_4(K)\le\gamma_4(K')+1$ in general.
+\end{lemma}
+
+\begin{proof}
+The pinch move is a band move, so there is a cobordism $\Sigma\subset S^3\times[0,1]$ from
+$K$ to $K'$ formed by $K\times[0,1]$ and one band. Since $K'$ is connected, the band does
+not respect the orientation of $K$, and $\Sigma$ is a M\"obius band with an open disk
+removed. If $K'$ bounds a disk $\Delta$ in $B^4$, then $\Sigma\cup\Delta$ is a M\"obius band
+bounded by $K$, so $\gamma_4(K)\le1$. If $K'$ bounds a surface $F$ with
+$b_1(F)=\gamma_4(K')$, then $\Sigma\cup F$ is a nonorientable surface bounded by $K$ with
+$b_1=b_1(F)+1$. This is the bound used by Jabuka and Kelly \cite{JK}.
+\end{proof}
+
+A knot that is not slice has $\gamma_4\ge1$. For the knots whose KnotInfo interval starts
+at $2$, the lower bound is the obstruction to bounding a M\"obius band recorded by KnotInfo
+from Lee and Sabloff \cite{LS}: either Yasuhara's condition
+$4\operatorname{Arf}(K)-\sigma(K)\in\{0,\pm2\}\pmod 8$ fails \cite{Ya}, or the linking form
+obstruction of Murakami and Yasuhara \cite{MY} applies. The further lower bounds are those
+of Section~\ref{sec:lower}. Theorem~\ref{thm:gamma} therefore rests on these obstructions,
+on the slice status and four-genus values recorded in KnotInfo for the targets, on the
+certificates of Section~\ref{sec:gcert} and on the lattice computations of
+Section~\ref{sec:lower}.
+
+\section{The pinch certificates and their verification}\label{sec:gcert}
+
+A certificate for a knot $K$ consists of a planar diagram code $D$, a crossing $c$ of $D$, a
+choice of smoothing, and a target: either the unknot or a knot $T$ of KnotInfo. It asserts
+that
+\begin{enumerate}
+\item $D$ is a diagram of $K$;
+\item the chosen smoothing of $c$ gives a one-component diagram $D'$;
+\item $D'$ represents $T$ or its mirror image;
+\item the bound $\beta=1$ if $T$ is slice or the unknot, and $\beta=\gamma_4(T)+1$ otherwise,
+is smaller than the upper end of the KnotInfo interval of $K$.
+\end{enumerate}
+Since $\gamma_4$ and sliceness are invariant under mirror image, (1) to (4) and
+Lemma~\ref{lem:pinch} give $\gamma_4(K)\le\beta$.
+
+The certificates were found with SnapPy \cite{SnapPy}: for every open knot we applied
+every pinch move to the KnotInfo diagram and to up to twenty-five diagrams obtained from it
+by random Reidemeister moves, and identified the resulting knots by hyperbolic structure. A
+candidate enters the file only if the verifier below accepts it; when it did not, the search
+went on with other crossings and other diagrams of the same knot. A second pass used the
+knots settled in the first pass as targets; the number of certificates with such a target
+is \nchained{}, and the verifier checks them after the certificates of their targets. A last
+pass applied every pinch move to twenty diagrams of each knot left open.
+
+The verifier \texttt{crosscap4d/verify/verify.py} does not use SnapPy. It reads the KnotInfo
+database and uses Regina \cite{Regina} for the topology. For (1) and (3) it proves that two
+diagrams represent the same knot up to mirror image in one of two ways.
+\begin{itemize}
+\item \emph{Isotopy.} Both diagrams are simplified by Reidemeister moves to the same number
+of crossings, and the closures of the two minimal diagrams under Reidemeister moves that add
+at most one crossing share a diagram. Diagrams are compared by Regina's canonical
+signatures, taken up to reflection, rotation and reversal.
+\item \emph{Complements.} The triangulated complements of the two diagrams have
+combinatorially isomorphic triangulations, possibly after Pachner moves that add at most one
+tetrahedron, or one of the triangulations obtained from forty simplifications of each
+complement under fixed seeds of Regina's random engine, together with the triangulations one
+Pachner move away from the smallest of them, occurs for both diagrams. Each of these
+triangulations is a triangulation of the complement it came from, so a common one shows that
+the complements are homeomorphic, and by the theorem of Gordon and Luecke \cite{GL} the
+knots agree up to mirror image.
+\end{itemize}
+Both tests are exact: a positive answer is a proof. Regina's simplification is randomised,
+so the verifier makes up to four attempts, each from a fixed seed, and gives each
+certificate two minutes. For the unknot the verifier uses Regina's recognition of the solid
+torus. Item (2) is checked by following the strands of $D'$, and (4) by reading KnotInfo.
+
+The verifier accepts all \ncerts{} certificates. It rejects certificates corrupted in four
+ways, on a sample of twenty: the other smoothing of the crossing, the next crossing, a wrong
+target, and a bound lowered by one (Table~\ref{tab:selftest}). The seven modified
+certificates with the next crossing that it accepts are valid certificates: that crossing
+gives the same target.
+
+\begin{table}[htbp]
+\centering
+\selftesttable
+\caption{Corrupted pinch certificates rejected by the verifier.}
+\label{tab:selftest}
+\end{table}
+
+\section{Lower bounds from definite lattices}\label{sec:lower}
+
+Let $D$ be a diagram of a knot $K$ with a checkerboard colouring. Following Gordon and
+Litherland \cite{GoL}, give each crossing $c$ the weight $\eta(c)=\pm1$ according to the
+position of the shaded regions at $c$, let $X_0,\dots,X_n$ be the unshaded regions, and let
+$G$ be the $n\times n$ matrix with $g_{ij}=-\sum\eta(c)$ over the crossings meeting $X_i$
+and $X_j$ for $i\ne j$, and $g_{ii}=-\sum_{k\ne i}g_{ik}$ with $k$ running from $0$ to $n$.
+This is the Goeritz matrix; $\det G=\pm\det K$, and with $\mu=\sum\eta(c)$ over the crossings
+of type~II for the shaded surface,
+\begin{equation}\label{eq:gl}
+\sigma(K)=\operatorname{sign}(G)-\mu .
+\end{equation}
+The form $G$ is the intersection form of the double cover of $B^4$ branched along the shaded
+surface pushed into $B^4$ \cite{GoL}. If $D$ is reduced and alternating, the forms $G_+$ and
+$G_-$ of the two colourings are positive and negative definite.
+
+\begin{theorem}[Jabuka and Kelly {\cite[Theorems 2.10--2.12]{JK}}]\label{thm:jk}
+Let $K$ be a knot with a reduced alternating diagram, let $P_+=G_+$ and $P_-=-G_-$, of ranks
+$r_\pm$, and let $s\equiv\sigma(K)+4\operatorname{Arf}(K)\pmod 8$. Call $\ell\in\mathbb N$
+admissible if $\ell\mid\det K$ and $\det K/\ell$ is a square.
+\begin{enumerate}
+\item If $s=2$ and $P_-\oplus[\ell]$ embeds in $\mathbb Z^{r_-+1}$ for no admissible
+$\ell$, or $s=6$ and $P_+\oplus[\ell]$ embeds in $\mathbb Z^{r_++1}$ for no admissible
+$\ell$, then $\gamma_4(K)\ge2$.
+\item If $s=0$ and neither $P_+\oplus[\ell]$ embeds in $\mathbb Z^{r_++1}$ nor
+$P_-\oplus[\ell]$ in $\mathbb Z^{r_-+1}$, for any admissible $\ell$, then $\gamma_4(K)\ge2$.
+\item If $s=4$ and neither $P_+$ embeds in $\mathbb Z^{r_++2}$ nor $P_-$ in
+$\mathbb Z^{r_-+2}$, then $\gamma_4(K)\ge3$.
+\end{enumerate}
+Here $\mathbb Z^N$ carries the standard positive definite form.
+\end{theorem}
+
+We recall the argument. If $K$ bounds a M\"obius band $\Sigma\subset B^4$, the double
+branched cover $W(\Sigma)$ has $b_1=0$ \cite{JK} and $b_2=1$, its form is $[\pm\ell]$ with
+$\ell$ admissible by a theorem of Gilmer and of Owens and Strle \cite[Corollary 2.8]{JK},
+and the congruence of Gilmer and Livingston \cite{GiL} fixes the sign of $\ell$ by $s$.
+Gluing $W(\Sigma)$ with reversed orientation to the double cover bounded by the shaded
+surface whose Goeritz form has the opposite sign gives a closed definite smooth
+four-manifold whose form contains $G\oplus[\mp\ell]$ in full rank. By Donaldson's theorem
+\cite{Do} that form is diagonal; changing the sign of the whole form gives (1) and (2). In
+(3) a surface with $b_1=2$ would give a definite $W(\Sigma)$ of rank two, of either sign,
+and the same gluing embeds $P_+$ or $P_-$ in a diagonal lattice of rank two more. In (1) the
+statement of \cite{JK} names the target lattice as $\varepsilon$-definite; the argument
+above, which is theirs, produces the lattice of the sign of $G$, and it is in this form that
+we apply it.
+
+Since $\gamma_4$ is invariant under mirror image, and mirroring changes the sign of every
+weight $\eta(c)$, of $G$, of $\mu$ and of $\sigma$, it does not matter which of the two
+weight conventions is called positive, as long as $\sigma$ is computed from \eqref{eq:gl}
+with the same weights.
+
+\begin{lemma}\label{lem:complement}
+Let $P$ be a positive definite lattice of rank $r$ and $\ell\in\mathbb N$. Then
+$P\oplus[\ell]$ embeds in $\mathbb Z^{r+1}$ if and only if there are an embedding
+$\phi\colon P\to\mathbb Z^{r+1}$ and an integer $k\ge1$ with $\ell=k^2|w|^2$, where $w$ is a
+primitive vector spanning the orthogonal complement of $\phi(P)$.
+\end{lemma}
+
+\begin{proof}
+The orthogonal complement of a sublattice of rank $r$ in $\mathbb Z^{r+1}$ is $\mathbb Z w$
+for a primitive $w$, and a vector of norm $\ell$ orthogonal to $\phi(P)$ is $kw$ with
+$k^2|w|^2=\ell$.
+\end{proof}
+
+\begin{lemma}\label{lem:search}
+Let $P$ be a positive definite Gram matrix of rank $r$ and $N\ge r$. Every embedding of $P$
+in $\mathbb Z^N$ is carried by a signed permutation of the coordinates to one found by the
+following search. The basis vectors $e_1,\dots,e_r$ are placed in turn; if the vectors
+already placed are supported on the first $t$ coordinates, the next vector is
+$(x,y,0)$ with $x\in\mathbb Z^t$ arbitrary, subject to the norm and the inner products with
+the vectors already placed, and $y$ a nonincreasing sequence of positive integers.
+\end{lemma}
+
+\begin{proof}
+By induction on the number of vectors placed. Given an embedding $v_1,\dots,v_r$ whose first
+$i-1$ vectors are of the stated form, supported on the first $t$ coordinates, the signed
+permutations of the coordinates beyond $t$ fix $v_1,\dots,v_{i-1}$; one of them makes the
+entries of $v_i$ beyond $t$ nonnegative and nonincreasing, with its nonzero entries first,
+and it does not change the shape of the vectors already placed.
+\end{proof}
+
+We take the KnotInfo diagram of each open alternating knot, compute both Goeritz forms and
+$\sigma$ from \eqref{eq:gl}, check that the two colourings give the same $\sigma$, that
+$|\sigma|$ agrees with KnotInfo and that the forms are definite, and run the search of
+Lemma~\ref{lem:search} to the end: for (1) and (2) it lists the norms $|w|^2$ of
+Lemma~\ref{lem:complement} over all embeddings, for (3) it decides whether an embedding
+exists. Of the \ntotal{} knots, the hypotheses of Theorem~\ref{thm:jk} hold and raise the
+KnotInfo lower end for \nlower{}: \nlowertwo{} reach $\gamma_4\ge2$ (\nlowerten{} by (1)
+and \nlowertwelve{} by (2)) and \nlowerthree{} reach $\gamma_4\ge3$ by (3). The data are in
+\texttt{crosscap4d/data/lower\_bounds.json}.
+
+The program \texttt{crosscap4d/lower/verify\_lower.py} recomputes every entry with the basis
+order of the search shuffled under a fixed seed, and runs three tests of the conventions. On
+the alternating knots with at most eleven crossings whose $\gamma_4$ KnotInfo records, the
+bound never exceeds the recorded value, while the same program with the sign of $\sigma$
+reversed contradicts the recorded value for more than two hundred of them. On the
+alternating knots that carry a pinch certificate, the bound never exceeds the upper bound of
+that certificate.
+
+\begin{table}[htbp]
+\centering
+\countstable
+\caption{Open entries of $\gamma_4$ in KnotInfo 2026.10.5 and what the certificates give.
+``Settled'': the value is now known; ``lowered'': the upper bound is lower.}
+\label{tab:counts}
+\end{table}
+
+\section{The knots whose nonorientable four-genus remains open}\label{sec:gopen}
+
+The remaining \nopen{} knots, with their narrowed intervals, are listed in the
+file \texttt{still\_open.json} of the folder \texttt{crosscap4d/data}. For a knot with interval $[1,2]$ that is not
+settled, no pinch move we tried gives a slice knot, and Theorem~\ref{thm:jk} does not apply
+or does not obstruct. Theorem~\ref{thm:jk} needs a definite diagram, so it says nothing
+about the nonalternating knots.
+
+The bound $|\upsilon(K)-\sigma(K)/2|\le\gamma_4(K)$ of Ozsv\'ath, Stipsicz and Szab\'o
+\cite{OSS}, with $\upsilon=\Upsilon_K(1)$, does not raise any of these lower ends where we
+could evaluate it. For the open knots with Hom's invariant $\varepsilon(K)=0$ the complex
+$CFK^\infty(K)$ is $\varepsilon$-equivalent to that of the unknot \cite{Hom}, so
+$\upsilon(K)=0$ and the bound is $|\sigma(K)|/2$, which never exceeds the lower end of the
+KnotInfo interval. For the others, the knot Floer complexes we could compute are complexes over
+$\F[U,V]/(UV)$, which do not determine $\Upsilon_K(1)$.
+
+\begin{remark}
+The \nclosedone{} M\"obius bands found here are not in the data of Lee and Sabloff
+\cite{LS}, whose search follows Dunfield and Gong \cite{DG} and runs over a finite family of
+bands chosen in advance. The knots settled at $\gamma_4=2$ were outside their aim, which was
+M\"obius bands; for them the target of the pinch move is a knot known to bound a M\"obius
+band but not a disk.
+\end{remark}
+
+\section*{Data availability}
+The certificates, the verifiers and the search programs for both parts are in the
+repository \url{https://github.com/creelie/conjecture-to-choose}, release 1.3.0,
+\url{https://github.com/creelie/conjecture-to-choose/releases/tag/v1.3.0}: Part~I in the
+folders \texttt{data}, \texttt{verify} and \texttt{search}, Part~II in the folder
+\texttt{crosscap4d}.
+
+\section*{Use of AI tools}
+The searches, the verification programs and drafts of the text were produced with Claude
+Code (Anthropic) under the direction of the author, who is responsible for the
+content.
+
+\section*{Funding and competing interests}
+The author received no funding for this work and has no competing interests.
+
+\begin{thebibliography}{99}
+\bibitem{BKM} R.~Blair, A.~Kjuchukova and N.~Morrison, \emph{Coxeter quotients of knot
+groups through 16 crossings}, Exp. Math. 34 (2025), no.~1, 27--37; arXiv:2208.09032.
+\bibitem{BKP} R.~Blair, A.~Kjuchukova and E.~Pfaff, \emph{The plain sphere number of a
+link}, arXiv:2504.10517.
+\bibitem{BKVV} R.~Blair, A.~Kjuchukova, R.~Velazquez and P.~Villanueva, \emph{Wirtinger
+systems of generators of knot groups}, Comm. Anal. Geom. 28 (2020), no.~2, 243--262;
+arXiv:1705.03108.
+\bibitem{Regina} B.~A.~Burton, R.~Budney, W.~Pettersson et al., \emph{Regina: software for
+low-dimensional topology}, regina-normal.github.io, version 7.4.
+\bibitem{SnapPy} M.~Culler, N.~M.~Dunfield, M.~Goerner and J.~R.~Weeks, \emph{SnapPy, a
+computer program for studying the geometry and topology of 3-manifolds}, version 3.3.2,
+\url{https://snappy.computop.org}.
+\bibitem{Do} S.~K.~Donaldson, \emph{The orientation of Yang--Mills moduli spaces and
+4-manifold topology}, J. Differential Geom. 26 (1987), 397--428.
+\bibitem{DG} N.~M.~Dunfield and S.~Gong, \emph{Ribbon concordances and slice obstructions:
+experiments and examples}, arXiv:2512.21825.
+\bibitem{Fa} M.~Fairchild, \emph{The non-orientable 4-genus of 11 crossing non-alternating
+knots}, J. Knot Theory Ramifications 34 (2025), no.~1.
+\bibitem{Gh} N.~Ghanbarian, \emph{The non-orientable 4-genus for knots with 10 crossings},
+J. Knot Theory Ramifications 31 (2022), no.~5, 2250034.
+\bibitem{GiL} P.~M.~Gilmer and C.~Livingston, \emph{The nonorientable 4-genus of knots},
+J. Lond. Math. Soc. (2) 84 (2011), 559--577.
+\bibitem{GoL} C.~McA.~Gordon and R.~A.~Litherland, \emph{On the signature of a link},
+Invent. Math. 47 (1978), 53--69.
+\bibitem{GL} C.~McA.~Gordon and J.~Luecke, \emph{Knots are determined by their complements},
+J. Amer. Math. Soc. 2 (1989), 371--415.
+\bibitem{Hom} J.~Hom, \emph{A survey on Heegaard Floer homology and concordance}, J. Knot
+Theory Ramifications 26 (2017), no.~2, 1740015.
+\bibitem{JK} S.~Jabuka and T.~Kelly, \emph{The nonorientable 4-genus for knots with 8 or 9
+crossings}, Algebr. Geom. Topol. 18 (2018), 1823--1856.
+\bibitem{Kirby} R.~Kirby (ed.), \emph{Problems in low-dimensional topology}, in Geometric
+Topology (Athens, GA, 1993), AMS/IP Stud. Adv. Math. 2.2, Amer. Math. Soc., 1997, 35--473.
+\bibitem{LS} D.~Lee and J.~M.~Sabloff, \emph{An algorithmic search for knots bounding
+M\"obius bands in $B^4$}, arXiv:2607.23582.
+\bibitem{KnotInfo} C.~Livingston and A.~H.~Moore, \emph{KnotInfo: Table of Knot Invariants},
+\url{https://knotinfo.org}, version 2026.10.5 (the \texttt{database\_knotinfo} package).
+\bibitem{MY} H.~Murakami and A.~Yasuhara, \emph{Four-genus and four-dimensional clasp number
+of a knot}, Proc. Amer. Math. Soc. 128 (2000), 3693--3699.
+\bibitem{OSS} P.~S.~Ozsv\'ath, A.~I.~Stipsicz and Z.~Szab\'o, \emph{Unoriented knot Floer
+homology and the unoriented four-ball genus}, Int. Math. Res. Not. IMRN 2017, no.~17,
+5137--5181.
+\bibitem{Ya} A.~Yasuhara, \emph{Connecting lemmas and representing homology classes of simply
+connected 4-manifolds}, Tokyo J. Math. 19 (1996), 245--261.
+\end{thebibliography}
+
+\appendix
+\section{The knots of Theorem~\ref{thm:bridge}}\label{app:bclosed}
+{\small\raggedright
+\bclosedlist.\par}
+
+\section{The knots with bridge index entry \texorpdfstring{$[3,4]$}{[3,4]} that remain open}\label{app:bopen}
+{\small\raggedright
+\bopenlist.\par}
+
+\section{The knots of Theorem~\ref{thm:gamma}}\label{app:glist}
+
+{\footnotesize
+\noindent\textbf{$\gamma_4=1$ (\nsettledone{} knots).}
+\begin{multicols}{6}\raggedright
+\listone
+\end{multicols}
+
+\noindent\textbf{$\gamma_4=2$ (\nsettledtwo{} knots).}
+\begin{multicols}{6}\raggedright
+\listtwo
+\end{multicols}
+
+\noindent\textbf{$\gamma_4=3$ (\nsettledthree{} knots).}
+\begin{multicols}{6}\raggedright
+\listthree
+\end{multicols}
+}
+
+\end{document}
