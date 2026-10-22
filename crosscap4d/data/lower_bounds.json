@@ -1,0 +1,5469 @@
+{
+ "source": "KnotInfo 2026.10.5 diagrams; Jabuka-Kelly Theorems 2.10-2.12",
+ "lower_bounds": [
+  {
+   "knot": "11a_173",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 5,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "11a_188",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "11a_203",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "11a_206",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 3,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "11a_259",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "11a_264",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 5,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "11a_277",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 5,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "11a_280",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 5,
+   "rank_minus": 6,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "11a_297",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 6,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "11a_305",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "11a_308",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "11a_314",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "11a_318",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "11a_352",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 4,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "11a_59",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "11a_6",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 5,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_1012",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_1015",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_1123",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": 0,
+   "class": 4,
+   "rank_plus": 6,
+   "rank_minus": 6,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "12a_1142",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_1171",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_1179",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_1242",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 2,
+   "rank_minus": 10,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_1256",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_1260",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 6,
+   "rank_minus": 6,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "12a_1276",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_1279",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_156",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -4,
+   "class": 0,
+   "rank_plus": 8,
+   "rank_minus": 4,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "12a_176",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_195",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 4,
+   "class": 0,
+   "rank_plus": 8,
+   "rank_minus": 4,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "12a_332",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 5,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_36",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_38",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_389",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_426",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 6,
+   "rank_minus": 6,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "12a_493",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_503",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_551",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_561",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": -4,
+   "class": 4,
+   "rank_plus": 5,
+   "rank_minus": 7,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "12a_569",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": 4,
+   "class": 4,
+   "rank_plus": 7,
+   "rank_minus": 5,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "12a_587",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_590",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_595",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_647",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -8,
+   "class": 0,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "12a_664",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": -4,
+   "class": 4,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "12a_669",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 3,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_693",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 4,
+   "class": 0,
+   "rank_plus": 8,
+   "rank_minus": 4,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "12a_694",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_712",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_714",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_726",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_742",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 8,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_780",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": -4,
+   "class": 4,
+   "rank_plus": 6,
+   "rank_minus": 6,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "12a_801",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_802",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_820",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_827",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_829",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_832",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_840",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_853",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 8,
+   "rank_minus": 4,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "12a_855",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_859",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 3,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_906",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": 0,
+   "class": 4,
+   "rank_plus": 6,
+   "rank_minus": 6,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "12a_907",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": -4,
+   "class": 4,
+   "rank_plus": 5,
+   "rank_minus": 7,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "12a_923",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_937",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_946",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_969",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_981",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "12a_984",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 3,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1022",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_1043",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -4,
+   "class": 0,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_1089",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1100",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1133",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_1157",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1196",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1221",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_1226",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1243",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_125",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1266",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_132",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_133",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_1335",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1353",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1395",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1398",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": -4,
+   "class": 4,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "13a_140",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1429",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1462",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 4,
+   "class": 0,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_1467",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1468",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1474",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_1482",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1488",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1492",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1520",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1557",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": 4,
+   "class": 4,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "13a_1573",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1601",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1617",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 4,
+   "class": 0,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_1640",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1645",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 4,
+   "class": 0,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_1662",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": 0,
+   "class": 4,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "13a_1682",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1720",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1725",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_173",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1740",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 10,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1751",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -4,
+   "class": 0,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_1786",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_1791",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1826",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": -4,
+   "class": 4,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "13a_1829",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1855",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1879",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 4,
+   "class": 0,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_189",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1897",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1899",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_191",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1912",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1929",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_193",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_195",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_1969",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 4,
+   "class": 0,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_1971",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1974",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": 4,
+   "class": 4,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "13a_1976",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 10,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1986",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1990",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_1992",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": 0,
+   "class": 4,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "13a_2008",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2020",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2038",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2079",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2097",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2109",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2114",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2124",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2129",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -4,
+   "class": 0,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_2154",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2157",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2173",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -4,
+   "class": 0,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_2175",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2181",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2202",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2207",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_223",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2232",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2233",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2271",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2307",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2315",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -4,
+   "class": 0,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_2319",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2362",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2367",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2381",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2432",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2445",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -4,
+   "class": 0,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_2461",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2484",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2497",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2501",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2507",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_254",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2544",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2548",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2564",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_26",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_2620",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2642",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2647",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2667",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2672",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_2690",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2717",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2719",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2721",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2722",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2736",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2742",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_279",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2810",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2824",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2830",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2833",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2835",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2844",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_286",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2879",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -4,
+   "class": 0,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_2884",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2890",
+   "knotinfo_range": [
+    2,
+    4
+   ],
+   "sigma": -4,
+   "class": 4,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "13a_2933",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2944",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2945",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_2947",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3016",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3018",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3022",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3034",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": 0,
+   "class": 4,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "13a_3036",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_3110",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -10,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 10,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3118",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3121",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": -4,
+   "class": 4,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "13a_3122",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3128",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3131",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3139",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3143",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 11,
+   "rank_minus": 2,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3158",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 4,
+   "class": 0,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_316",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3164",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 10,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_319",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_32",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -4,
+   "class": 0,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_3206",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 10,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3234",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3250",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3262",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3282",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_33",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_3309",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3315",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3329",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3337",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3340",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3358",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3377",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -10,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 10,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3380",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -10,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 10,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3387",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3459",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3461",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3474",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_349",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3524",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3530",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 2,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3543",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3554",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3558",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3585",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": 0,
+   "class": 4,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "13a_3589",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_361",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3641",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3642",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3660",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_3670",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3687",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3693",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -4,
+   "class": 0,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_3706",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3718",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3720",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3747",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": 0,
+   "class": 4,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "13a_3749",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3794",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3796",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3800",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_382",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3841",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3852",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3858",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3865",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3880",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_3892",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3901",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3913",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3917",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3931",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3936",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": 0,
+   "class": 4,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "13a_395",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3950",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3956",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3961",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3978",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_3990",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 10,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4017",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4030",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4034",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4039",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4041",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4047",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4053",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4055",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4102",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4112",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4116",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4127",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4129",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_416",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4163",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4176",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4182",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4190",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4201",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 10,
+   "rank_minus": 3,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4210",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4214",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -4,
+   "class": 0,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_4240",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4250",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4258",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_428",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4306",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4307",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4309",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4313",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4329",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 6,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_435",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4359",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4401",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4427",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_445",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_448",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 4,
+   "class": 0,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_4488",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 10,
+   "rank_minus": 3,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4504",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4509",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4532",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 10,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4538",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4545",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4553",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4558",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -10,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 10,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4566",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": -8,
+   "class": 4,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "13a_4576",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4578",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4595",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4607",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 10,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4616",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4631",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4637",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": 0,
+   "class": 4,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "13a_4643",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 10,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4658",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4674",
+   "knotinfo_range": [
+    2,
+    3
+   ],
+   "sigma": 0,
+   "class": 4,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.11",
+   "bound": 3
+  },
+  {
+   "knot": "13a_4678",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_469",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4695",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_4698",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4706",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4739",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -10,
+   "class": 6,
+   "rank_plus": 3,
+   "rank_minus": 10,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4745",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4764",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4768",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 4,
+   "class": 0,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_4800",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4828",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -10,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 10,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4844",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4856",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 11,
+   "rank_minus": 2,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4857",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4862",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -10,
+   "class": 2,
+   "rank_plus": 3,
+   "rank_minus": 10,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_4876",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_501",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -6,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_553",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_561",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_58",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_616",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_627",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_635",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_648",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_652",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 9,
+   "rank_minus": 4,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_654",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_662",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_663",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_665",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 6,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_667",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_675",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_676",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_681",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_702",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_705",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_720",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_738",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_740",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_762",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_765",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_813",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_831",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_832",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 5,
+   "rank_minus": 8,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_855",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": 0,
+   "class": 0,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_892",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 4,
+   "rank_minus": 9,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_896",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -4,
+   "class": 0,
+   "rank_plus": 7,
+   "rank_minus": 6,
+   "theorem": "2.12",
+   "bound": 2,
+   "complement_norms": [
+    [],
+    []
+   ]
+  },
+  {
+   "knot": "13a_905",
+   "knotinfo_range": [
+    1,
+    3
+   ],
+   "sigma": -2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_938",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_945",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_968",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_971",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": 2,
+   "class": 6,
+   "rank_plus": 8,
+   "rank_minus": 5,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  },
+  {
+   "knot": "13a_993",
+   "knotinfo_range": [
+    1,
+    2
+   ],
+   "sigma": -2,
+   "class": 2,
+   "rank_plus": 6,
+   "rank_minus": 7,
+   "theorem": "2.10",
+   "bound": 2,
+   "complement_norms": []
+  }
+ ]
+}
