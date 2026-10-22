@@ -1,6 +1,6 @@
 {
-  "title": "Bridge index and nonorientable four-genus of knots with at most thirteen crossings: papers, certificates and verifiers",
-  "version": "1.2.0",
+  "title": "The bridge index and the nonorientable four-genus of knots with at most thirteen crossings: paper, certificates and verifiers",
+  "version": "1.3.0",
   "upload_type": "software",
   "creators": [
     {
@@ -9,17 +9,17 @@
       "affiliation": "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India; Formerly, University of Calcutta, Senate House, 87/1 College Street, Kolkata 700073, West Bengal, India"
     }
   ],
-  "description": "<p>Papers, certificates and verifiers for two partial results on the KnotInfo tables (version 2026.10.5), by Deep Bhattacharjee. Neither has been refereed.</p><p><em>Transvections and the bridge index of thirteen-crossing knots</em> (paper/bridge13.pdf). KnotInfo lists the bridge index of 536 prime knots with 13 crossings as [3,4]. For 243 of them the bridge index is 4 and equals the meridional rank, so the meridional rank conjecture holds for these knots; the lower bound is a representation of the knot group sending the meridian to a transvection of Sp(4, F<sub>3</sub>) or Sp(4, F<sub>5</sub>), or a reflection of O(4, F<sub>5</sub>). The other 293 stay open; Alexander-quandle colourings and closed 3-braids in a bounded range settle none of them.</p><p><em>Pinch moves, definite lattices and the nonorientable four-genus of knots with at most thirteen crossings</em> (crosscap4d/paper/crosscap4d.pdf). KnotInfo leaves the smooth nonorientable four-genus open for 3,525 prime knots with 11 to 13 crossings. Pinch moves to a slice knot, or to a knot of known nonorientable four-genus, give upper bounds, each checked in Regina by a program independent of the search; the Goeritz-lattice obstructions of Jabuka and Kelly, from Donaldson's diagonalisation theorem, give lower bounds for the alternating knots by an exhaustive embedding search. Together they settle 2,537 of the knots (520 at 1, 1,995 at 2, 22 at 3) and narrow the interval of 376 more; 988 stay open.</p><p>The archive holds both papers with their TeX sources (paper/, crosscap4d/paper/, each with paper1/ for the PDF and paper2/ for the TeX zip), one certificate per knot (data/, crosscap4d/data/), the lists of open knots, the verifiers (verify/, crosscap4d/verify/, crosscap4d/lower/) and the search programs.</p>",
+  "description": "<p>Paper, certificates and verifiers for two partial results on the KnotInfo tables (version 2026.10.5), by Deep Bhattacharjee. The paper <em>The bridge index and the nonorientable four-genus of knots with at most thirteen crossings</em> (paper/paper1/knot-tables.pdf, TeX source in paper/paper2/ and paper/knot-tables/) joins the two earlier papers below into one: Part I is the bridge index, Part II the nonorientable four-genus. It has not been refereed.</p><p><em>Transvections and the bridge index of thirteen-crossing knots</em> (paper/bridge13.pdf). KnotInfo lists the bridge index of 536 prime knots with 13 crossings as [3,4]. For 243 of them the bridge index is 4 and equals the meridional rank, so the meridional rank conjecture holds for these knots; the lower bound is a representation of the knot group sending the meridian to a transvection of Sp(4, F<sub>3</sub>) or Sp(4, F<sub>5</sub>), or a reflection of O(4, F<sub>5</sub>). The other 293 stay open; Alexander-quandle colourings and closed 3-braids in a bounded range settle none of them.</p><p><em>Pinch moves, definite lattices and the nonorientable four-genus of knots with at most thirteen crossings</em> (crosscap4d/paper/crosscap4d.pdf). KnotInfo leaves the smooth nonorientable four-genus open for 3,525 prime knots with 11 to 13 crossings. Pinch moves to a slice knot, or to a knot of known nonorientable four-genus, give upper bounds, each checked in Regina by a program independent of the search; the Goeritz-lattice obstructions of Jabuka and Kelly, from Donaldson's diagonalisation theorem, give lower bounds for the alternating knots by an exhaustive embedding search. Together they settle 2,537 of the knots (520 at 1, 1,995 at 2, 22 at 3) and narrow the interval of 376 more; 988 stay open.</p><p>The archive holds the joint paper (paper/paper1/ for the PDF, paper/paper2/ for the TeX zip) and the two earlier papers with their TeX sources (paper/bridge13.tex, crosscap4d/paper/), one certificate per knot (data/, crosscap4d/data/), the lists of open knots, the verifiers (verify/, crosscap4d/verify/, crosscap4d/lower/) and the search programs.</p>",
   "keywords": [
     "4D crosscap number",
+    "Donaldson diagonalisation",
+    "Goeritz matrix",
     "KnotInfo",
     "Mobius band",
     "Regina",
     "Wirtinger number",
     "bridge index",
     "certificates",
-    "Donaldson diagonalisation",
-    "Goeritz matrix",
     "knot groups",
     "meridional rank",
     "meridional rank conjecture",

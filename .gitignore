@@ -9,3 +9,8 @@ crosscap4d/paper/*.log
 crosscap4d/paper/*.fls
 crosscap4d/paper/*.fdb_latexmk
 crosscap4d/paper/*.out
+paper/knot-tables/*.aux
+paper/knot-tables/*.log
+paper/knot-tables/*.fls
+paper/knot-tables/*.fdb_latexmk
+paper/knot-tables/*.out
