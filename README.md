@@ -1,6 +1,6 @@
 # Bridge index of thirteen-crossing knots
 
-Both results of this repository are written up in one paper, *The bridge index and the nonorientable four-genus of knots with at most thirteen crossings*: [`paper/paper1/knot-tables.pdf`](paper/paper1/knot-tables.pdf), with the TeX source in [`paper/paper2/knot-tables-tex.zip`](paper/paper2/knot-tables-tex.zip). Part I is the bridge index, Part II the nonorientable four-genus.
+Both results of this repository are written up in one paper, *The bridge index and the nonorientable four-genus of knots with at most thirteen crossings*: [`paper/paper1/knot-tables.pdf`](paper/paper1/knot-tables.pdf), with the TeX source in [`paper/paper2/knot-tables-tex.zip`](paper/paper2/knot-tables-tex.zip). Part I is the bridge index, Part II the nonorientable four-genus. Release 1.3.0 is archived on Zenodo, doi:[10.5281/zenodo.23561157](https://doi.org/10.5281/zenodo.23561157); all versions doi:10.5281/zenodo.23521966.
 
 KnotInfo (version 2026.10.5) lists the bridge index of 536 prime knots with 13 crossings as
 `[3,4]`: it is known to be 3 or 4, and the exact value is not known.
